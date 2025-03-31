@@ -23,7 +23,6 @@ import client8 from "../../assets/images/client/08.jpg";
 import cate1 from "../../assets/images/property/residential.jpg";
 import cate2 from "../../assets/images/property/land.jpg";
 import cate3 from "../../assets/images/property/commercial.jpg";
-import cate4 from "../../assets/images/property/investment.jpg";
 import cate5 from "../../assets/images/property/industrial.jpg";
 
 import about1 from '../../assets/images/rent.png'
@@ -199,27 +198,22 @@ export const categoriesData = [
     {
         image:cate1,
         name: 'Residential',
-        title: '46 Listings'
+        title: 'Coming Soon'
     },
     {
         image:cate2,
         name: 'Land',
-        title: '124 Listings'
+        title: 'Coming Soon'
     },
     {
         image:cate3,
         name: 'Commercial',
-        title: '265 Listings'
-    },
-    {
-        image:cate4,
-        name: 'Industrial',
-        title: '452 Listings'
+        title: 'Coming Soon'
     },
     {
         image:cate5,
         name: 'Investment',
-        title: '12 Listings'
+        title: 'Coming Soon'
     },
 ]
 export const featureTwo = [
