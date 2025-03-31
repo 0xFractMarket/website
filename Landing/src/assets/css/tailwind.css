@@ -295,24 +295,24 @@ textarea {
 */
 input::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
   opacity: 1; /* 1 */
-  color: #9ca3af; /* 2 */
+  color: #fff; /* 2 */
 }
 input::-moz-placeholder, textarea::-moz-placeholder {
   opacity: 1; /* 1 */
-  color: #9ca3af; /* 2 */
+  color: #fff; /* 2 */
 }
 input:-ms-input-placeholder, textarea:-ms-input-placeholder {
   opacity: 1; /* 1 */
-  color: #9ca3af; /* 2 */
+  color: #fff; /* 2 */
 }
 input::-ms-input-placeholder, textarea::-ms-input-placeholder {
   opacity: 1; /* 1 */
-  color: #9ca3af; /* 2 */
+  color: #fff; /* 2 */
 }
 input::placeholder,
 textarea::placeholder {
   opacity: 1; /* 1 */
-  color: #9ca3af; /* 2 */
+  color: #fff; /* 2 */
 }
 /*
 Set the default cursor for buttons.
@@ -594,23 +594,23 @@ video {
   border-color: #2563eb;
 }
 .form-input::-webkit-input-placeholder, .form-textarea::-webkit-input-placeholder{
-  color: #6b7280;
+  color: #fff;
   opacity: 1;
 }
 .form-input::-moz-placeholder, .form-textarea::-moz-placeholder{
-  color: #6b7280;
+  color: #fff;
   opacity: 1;
 }
 .form-input:-ms-input-placeholder, .form-textarea:-ms-input-placeholder{
-  color: #6b7280;
+  color: #fff;
   opacity: 1;
 }
 .form-input::-ms-input-placeholder, .form-textarea::-ms-input-placeholder{
-  color: #6b7280;
+  color: #fff;
   opacity: 1;
 }
 .form-input::placeholder,.form-textarea::placeholder{
-  color: #6b7280;
+  color: #fff;
   opacity: 1;
 }
 .form-input::-webkit-datetime-edit-fields-wrapper{
@@ -1807,7 +1807,7 @@ video {
 }
 .text-gray-300{
   --tw-text-opacity: 1 !important;
-  color: rgb(209 213 219 / var(--tw-text-opacity)) !important;
+  color: rgb(255 255 255 / var(--tw-text-opacity)) !important;
 }
 .text-gray-400{
   --tw-text-opacity: 1 !important;
@@ -1831,7 +1831,7 @@ video {
 }
 .text-slate-400{
   --tw-text-opacity: 1 !important;
-  color: rgb(148 163 184 / var(--tw-text-opacity)) !important;
+  color: #b9b98b !important;
 }
 .text-slate-900{
   --tw-text-opacity: 1 !important;
@@ -3758,7 +3758,7 @@ html[dir=rtl] .tns-visually-hidden {
 }
 .form-input:is(.dark *){
   --tw-border-opacity: 1;
-  border-color: rgb(31 41 55 / var(--tw-border-opacity));
+  border-color: rgb(14 19 14 / var(--tw-border-opacity));
   --tw-bg-opacity: 1;
   background-color: rgb(14 19 14 / var(--tw-bg-opacity));
   --tw-text-opacity: 1;
@@ -3843,6 +3843,7 @@ html[dir=rtl] .tns-visually-hidden {
   color: rgb(22 28 45 / var(--tw-text-opacity));
   outline: 2px solid transparent;
   outline-offset: 2px;
+  background-color: rgb(14 19 14 / var(--tw-bg-opacity)) !important;
 }
 .subcribe-form form input:is(.dark *){
   --tw-text-opacity: 1;
@@ -3997,9 +3998,9 @@ html[dir=rtl] .tns-visually-hidden {
   --tw-border-opacity: 1 !important;
   border-color: rgb(55 65 81 / var(--tw-border-opacity)) !important;
 }
-.dark\:border-gray-800:is(.dark *){
+ul.dark\:border-gray-800:is(.dark *){
   --tw-border-opacity: 1 !important;
-  border-color: rgb(31 41 55 / var(--tw-border-opacity)) !important;
+  border-color: rgb(14 19 14 / var(--tw-border-opacity)) !important;
 }
 .dark\:border-green-600:is(.dark *){
   --tw-border-opacity: 1 !important;
@@ -4016,11 +4017,15 @@ html[dir=rtl] .tns-visually-hidden {
 .dark\:bg-green-600\/20:is(.dark *){
   background-color: rgb(22 163 74 / 0.2) !important;
 }
-.dark\:bg-slate-800:is(.dark *){
+footer.dark\:bg-slate-800:is(.dark *){
   --tw-bg-opacity: 1 !important;
-  background-color: rgb(76 47 1 / var(--tw-bg-opacity)) !important;
+  background-color: rgba(14 19 14 / var(--tw-bg-opacity)) !important;
 }
-.dark\:bg-slate-900:is(.dark *){
+body.dark\:bg-slate-900:is(.dark *){
+  --tw-bg-opacity: 1 !important;
+  background-color: rgb(14 19 14 / var(--tw-bg-opacity)) !important;
+}
+input.dark\:bg-slate-900:is(.dark *){
   --tw-bg-opacity: 1 !important;
   background-color: rgb(14 19 14 / var(--tw-bg-opacity)) !important;
 }
@@ -4068,8 +4073,9 @@ html[dir=rtl] .tns-visually-hidden {
   -webkit-box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow) !important;
           box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow) !important;
 }
-.dark\:shadow-gray-700:is(.dark *){
-  --tw-shadow-color: #0e130e !important;
+div.dark\:shadow-gray-700:is(.dark *){
+  --tw-shadow-color: #354c30 !important;
+  background-color: #354c30 !important;
   --tw-shadow: var(--tw-shadow-colored) !important;
 }
 .dark\:shadow-gray-800:is(.dark *){

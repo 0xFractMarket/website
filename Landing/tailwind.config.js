@@ -35,9 +35,9 @@ module.exports = {
         lg_992: '992px',
       },
       colors: {
-        'dark': '#3c4858',
-        'black': '#161c2d',
-        'dark-footer': '#161c28',
+        'dark': '#130E0E',
+        'black': '#130E0E',
+        'dark-footer': '#130E0E',
       },
 
       boxShadow: {
@@ -97,4 +97,3 @@ module.exports = {
     }),
   ]
 }
-
