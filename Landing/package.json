@@ -1,7 +1,7 @@
 {
-  "name": "hously",
+  "name": "fractmarket",
   "version": "2.3.0",
-  "description": "React Js Real Estate Landing Page Template",
+  "description": "Fractional real state made easy",
   "private": true,
   "dependencies": {
     "@tailwindcss/forms": "^0.5.9",
