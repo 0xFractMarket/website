@@ -18,7 +18,7 @@ export default function IndexEight() {
         <div className="container relative">
           <div className="grid grid-cols-1 items-center mt-10">
             <div className="text-center">
-              <h1 className="font-bold lg:leading-normal leading-normal text-4xl lg:text-5xl mb-6">Explore Listings and <br /> Make Move Today</h1>
+              <h1 className="font-bold lg:leading-normal leading-normal text-4xl lg:text-5xl mb-6">Fractional real state made easy <br /> Make Move Today</h1>
               <p className="text-slate-400 text-xl max-w-xl mx-auto">A great plateform to buy, sell and rent your properties without any agent or commisions.</p>
             </div>
           </div>
