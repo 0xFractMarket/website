@@ -9,6 +9,7 @@ import Footer from '../component/Footer';
 import Switcher from '../component/Switcher';
 import { aboutData } from '../component/Properties/data';
 import { FiArrowRight, FiHexagon } from 'react-icons/fi';
+import Faq from './faq';
 
 export default function IndexEight() {
   return (
@@ -18,8 +19,8 @@ export default function IndexEight() {
         <div className="container relative">
           <div className="grid grid-cols-1 items-center mt-10">
             <div className="text-center">
-              <h1 className="font-bold lg:leading-normal leading-normal text-4xl lg:text-5xl mb-6">Fractional real state made easy <br /> Make Move Today</h1>
-              <p className="text-slate-400 text-xl max-w-xl mx-auto">A great plateform to buy, sell and rent your properties without any agent or commisions.</p>
+              <h1 className="font-bold lg:leading-normal leading-normal text-4xl lg:text-5xl mb-6">Fractional Real Estate Made Easy</h1>
+              <p className="text-slate-400 text-xl max-w-xl mx-auto">FractMarket is a real estate marketplace where you can invest with little money as be part of the wins</p>
             </div>
           </div>
         </div>
@@ -30,7 +31,7 @@ export default function IndexEight() {
           <Categories />
         </div>
 
-        <div className="container relative lg:mt-24 mt-16">
+        <div className="container relative lg:mt-24 mt-16 mb-16">
           <div className="grid grid-cols-1 pb-8 text-center">
             <h3 className="mb-4 md:text-3xl md:leading-normal text-2xl leading-normal font-semibold">What We Do?</h3>
             <p className="text-slate-400 max-w-xl mx-auto">A great plateform to buy, sell and rent your properties without any agent or commisions.</p>
@@ -46,21 +47,17 @@ export default function IndexEight() {
                     </div>
                   </div>
 
-                  <div className="mt-6">
+                  <div className="mt-6 mb-6">
                     <Link to="" className="text-xl font-medium hover:text-green-600">{item.title}</Link>
                     <p className="text-slate-400 mt-3">{item.desc}</p>
-
-                    <div className="mt-4">
-                      <Link to="" className="btn btn-link text-green-600 hover:text-green-600 after:bg-green-600 transition duration-500">Read More <FiArrowRight className="ms-1" /></Link>
-                    </div>
                   </div>
                 </div>
               )
             })}
           </div>
         </div>
-        <Cta />
         <Property />
+        <Faq />
       </section>
       <Footer />
       <Switcher />

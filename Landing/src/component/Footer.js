@@ -46,7 +46,7 @@ export default function Footer() {
                       <img src={LogoLight} alt="" />
                       <h2>FractMarket</h2>
                     </Link>
-                    <p className="mt-6 text-gray-300">What is the problem I am in love with? Owning land with little money and provide high liquidity to the land/market</p>
+                    <p className="mt-6 text-gray-300">What is the problem I am in love with? <br />Owning land with little money and provide high liquidity to the land/market</p>
                   </div>
 
                   <div className="lg:col-span-6 md:col-span-12">
@@ -55,21 +55,21 @@ export default function Footer() {
                       <div className="flex mt-6">
                         <FiMapPin className="size-5 text-green-600 me-3" />
                         <div className="">
-                          <h6 className="text-gray-300 mb-2">C/54 Northwest Freeway, <br /> Suite 558, <br /> Houston, USA 485</h6>
-                          <Link to="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d39206.002432144705!2d-95.4973981212445!3d29.709510002925988!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8640c16de81f3ca5%3A0xf43e0b60ae539ac9!2sGerald+D.+Hines+Waterwall+Park!5e0!3m2!1sen!2sin!4v1566305861440!5m2!1sen!2sin" data-type="iframe" className="text-green-600 hover:text-green-700 duration-500 ease-in-out lightbox">View on Google map</Link>
+                          <h6 className="text-gray-300 mb-2">Torres de Heredia A701 <br /> Heredia 40101, <br /> Costa Rica</h6>
+                          <Link to="https://maps.app.goo.gl/ZePsHc3eUgmtJrNa8" data-type="iframe" className="text-green-600 hover:text-green-700 duration-500 ease-in-out lightbox">View on Google map</Link>
                         </div>
                       </div>
                       <div className="md:mx-6">
                         <div className="flex mt-6">
                           <FiMail className="size-5 text-green-600 me-3" />
                           <div className="">
-                            <Link to="mailto:contact@example.com" className="text-slate-300 hover:text-slate-400 duration-500 ease-in-out">contact@example.com</Link>
+                            <Link to="mailto:fractmarket@gmail.com" className="text-slate-300 hover:text-slate-400 duration-500 ease-in-out">fractmarket@gmail.com</Link>
                           </div>
                         </div>
                         <div className="flex mt-6">
                           <FiPhone className="size-5 text-green-600 me-3" />
                           <div className="">
-                            <Link to="tel:+152534-468-854" className="text-slate-300 hover:text-slate-400 duration-500 ease-in-out">+152 534-468-854</Link>
+                            <Link to="tel:+50671612344" className="text-slate-300 hover:text-slate-400 duration-500 ease-in-out">+506 7161 2344</Link>
                           </div>
                         </div>
                       </div>

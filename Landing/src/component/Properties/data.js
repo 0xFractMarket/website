@@ -348,6 +348,21 @@ export const aboutData = [
         title:'Sell a House',
         desc:"If the distribution of letters and 'words' is random, the reader will not be distracted from making."
     },
+    {
+        image:about1,
+        title:'Rent a House',
+        desc:"If the distribution of letters and 'words' is random, the reader will not be distracted from making."
+    },
+    {
+        image:about2,
+        title:'Buy a House',
+        desc:"If the distribution of letters and 'words' is random, the reader will not be distracted from making."
+    },
+    {
+        image:about3,
+        title:'Sell a House',
+        desc:"If the distribution of letters and 'words' is random, the reader will not be distracted from making."
+    },
 ]
 
 export const agentData = [
