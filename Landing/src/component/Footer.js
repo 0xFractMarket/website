@@ -25,7 +25,7 @@ export default function Footer() {
 
                     <div className="subcribe-form z-1">
                       <form className="relative max-w-lg md:ms-auto">
-                        <input type="email" id="subcribe" name="email" className="rounded-full bg-white dark:bg-slate-900 shadow dark:shadow-gray-700" placeholder="Enter your email :" />
+                        <input type="email" id="subcribe" name="email" className="rounded-full bg-white dark:bg-slate-900 shadow dark:shadow-gray-700" placeholder="Enter your email" />
                         <button type="submit" className="btn bg-green-600 hover:bg-green-700 text-white rounded-full">Subscribe</button>
                       </form>
                     </div>

@@ -3994,9 +3994,9 @@ html[dir=rtl] .tns-visually-hidden {
   --tw-border-opacity: 1 !important;
   border-color: rgb(156 163 175 / var(--tw-border-opacity)) !important;
 }
-.dark\:border-gray-700:is(.dark *){
+div.dark\:border-gray-700:is(.dark *){
   --tw-border-opacity: 1 !important;
-  border-color: rgb(55 65 81 / var(--tw-border-opacity)) !important;
+  border-color: rgb(14 19 14 / var(--tw-border-opacity)) !important;
 }
 ul.dark\:border-gray-800:is(.dark *){
   --tw-border-opacity: 1 !important;

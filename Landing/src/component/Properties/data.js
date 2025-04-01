@@ -340,7 +340,7 @@ export const aboutData = [
     {
         image:about1,
         title:'Fractionalized Properties',
-        desc:"If the distribution of letters and 'words' is random, the reader will not be distracted from making."
+        desc: "Own a fraction of a property through tokens backed by real assets"
     },
     {
         image:about2,
