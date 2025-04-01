@@ -271,20 +271,24 @@ export const pricing = [
 ]
 export const accordionData = [
     {
-        title: 'How does it work ?',
-        content: 'There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form.'
+        title: 'How can I invest in fractional real estate?',
+        content: 'Simply visit our marketplace, choose a property, and purchase tokens representing its value'
     },
     {
-        title: 'Do I need a designer to use Hously ?',
-        content: 'There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form.'
+        title: 'What rights do I have as a token holder?',
+        content: 'Your tokens grant you proportional benefits, including rental income and voting power in DAO decisions'
     },
     {
-        title: 'What do I need to do to start selling ?',
-        content: 'There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form.'
+        title: 'How do you ensure liquidity for my investment?',
+        content: 'You can sell your tokens on the secondary market anytime or opt for the DAO buyback option'
     },
     {
-        title: 'What happens when I receive an order ?',
-        content: 'There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form.'
+        title: 'What happens if the property value increases?',
+        content: 'If the property appreciates, your tokens gain value, allowing you to sell at a profit or earn higher rental returns'
+    },
+    {
+        title: 'Is it safe to invest here?',
+        content: 'Yes. We leverage blockchain technology to guarantee security, transparency, and full transaction traceability'
     }
 ]
 export  const blogList = [
@@ -335,33 +339,33 @@ export  const blogList = [
 export const aboutData = [
     {
         image:about1,
-        title:'Rent a House',
+        title:'Fractionalized Properties',
         desc:"If the distribution of letters and 'words' is random, the reader will not be distracted from making."
     },
     {
         image:about2,
-        title:'Buy a House',
-        desc:"If the distribution of letters and 'words' is random, the reader will not be distracted from making."
+        title:'DAO as an Active Manager',
+        desc:"Our DAO doesn’t just manage—it enhances property value through upgrades and rental strategies"
     },
     {
         image:about3,
-        title:'Sell a House',
-        desc:"If the distribution of letters and 'words' is random, the reader will not be distracted from making."
+        title:'Secondary Market',
+        desc:"Buy and sell your tokens easily on our transparent marketplace"
     },
     {
         image:about1,
-        title:'Rent a House',
-        desc:"If the distribution of letters and 'words' is random, the reader will not be distracted from making."
+        title:'DAO Buyback Option',
+        desc:"If you choose to sell, the DAO can buy back your tokens, ensuring a smooth exit"
     },
     {
         image:about2,
-        title:'Buy a House',
-        desc:"If the distribution of letters and 'words' is random, the reader will not be distracted from making."
+        title:'Smart Land Acquisition',
+        desc:"Our strategy includes crowdfunding, direct purchases, and auctions to maximize property value"
     },
     {
         image:about3,
-        title:'Sell a House',
-        desc:"If the distribution of letters and 'words' is random, the reader will not be distracted from making."
+        title:'Security & Transparency',
+        desc:"Every transaction is securely recorded, ensuring full traceability and trust"
     },
 ]
 

@@ -20,7 +20,7 @@ export default function Footer() {
                   <div className="grid md:grid-cols-2 grid-cols-1 items-center gap-[30px]">
                     <div className="md:text-start text-center z-1">
                       <h3 className="md:text-3xl text-2xl md:leading-normal leading-normal font-medium text-black dark:text-white">Join the Wailist!</h3>
-                      <p className="text-slate-400 max-w-xl mx-auto">Subscribe to get latest updates and information.</p>
+                      <p className="text-slate-400 max-w-xl mx-auto">Be the first to get latest updates and information for the coming launch</p>
                     </div>
 
                     <div className="subcribe-form z-1">
