@@ -17,7 +17,7 @@ export default function Faq() {
   return (
     <>
       {/* <!-- Start Section--> */}
-      <section className="relative lg:py-24 py-16">
+      <section id="qymh" className="relative lg:pt-24 pt-16 pb-0">
         <div className="container">
           <div className="grid md:grid-cols-12 grid-cols-1 gap-[30px]">
             <div className="lg:col-span-8 md:col-span-7">

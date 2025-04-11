@@ -2,14 +2,14 @@ import React from "react";
 import { Link } from "react-router-dom";
 
 import { properties } from "./data";
-import { LiaBathSolid, LiaCompressArrowsAltSolid } from "react-icons/lia";
-import { BiBed } from "react-icons/bi";
+import { LiaCompressArrowsAltSolid, LiaNewspaperSolid, MdOutlineWaterDrop, GoLightBulb, GiRoad, CiLocationOn  } from "../../assets/icons/vander"
+
 
 export default function Property() {
 
   return (
     <>
-      <div className="container lg:mt-24 mt-16">
+      <div id="marketplace" className="container lg:pt-32 pt-32">
         <div className="grid grid-cols-1 pb-8 text-center">
           <h3 className="mb-4 md:text-3xl md:leading-normal text-2xl leading-normal font-semibold">Marketplace</h3>
 
@@ -28,31 +28,52 @@ export default function Property() {
               </div>
 
               <div className="p-6">
-                <div className="pb-6">
-                  <Link to={`/property-detail/${item.id}`} className="text-lg hover:text-green-600 font-medium ease-in-out duration-500">{item.name}</Link>
+                <div className="p-1">
+                  <h3 className="text-lg hover:text-green-600 font-medium ease-in-out duration-500">{item.name}</h3>
+                  <Link className={`property-button mt-4 w-full ${!item.enabled ? 'disabled' : ''}`}>{item.enabled ? 'View Property' : 'Coming soon'}</Link>
                 </div>
 
-                <ul className="py-6 border-y border-slate-100 dark:border-gray-800 flex items-center list-none">
-                  <li className="flex items-center me-4">
+                <ul className="pt-6 border-y border-slate-100 dark:border-gray-800 flex items-center list-none flex-wrap">
+                <li className="flex items-center me-4 mb-4">
                     <LiaCompressArrowsAltSolid className="text-2xl me-2 text-green-600" /><i ></i>
-                    <span>{item.square}sqf</span>
+                    <span>{item.square} mts2</span>
                   </li>
 
-                  <li className="flex items-center me-4">
-                    <BiBed className="text-2xl me-2 text-green-600" />
-                    <span>{item.beds} Beds</span>
+                  <li className="flex items-center me-4 mb-4">
+                    <LiaNewspaperSolid className="text-2xl me-2 text-green-600" />
+                    <span>{item.legalConsiderations.titleIssues} </span>
                   </li>
 
-                  <li className="flex items-center">
-                    <LiaBathSolid className="text-2xl me-2 text-green-600" />
-                    <span>{item.baths} Baths</span>
+                  <li className="flex items-center me-4 mb-4">
+                    <MdOutlineWaterDrop className="text-2xl me-2 text-green-600" />
+                    <span>{item.utilityInformation.waterSource}</span>
+                  </li>
+
+                  <li className="flex items-center me-4 mb-4">
+                    <GoLightBulb className="text-2xl me-2 text-green-600" />
+                    <span>{item.utilityInformation.electricitySource} </span>
+                  </li>
+
+                  <li className="flex items-center me-4 mb-4">
+                    <GiRoad className="text-2xl me-2 text-green-600" />
+                    <span>{item.terrainFeatures.accessibility}</span>
+                  </li>
+
+                  <li className="flex items-center me-4 mb-4">
+                    <CiLocationOn className="text-2xl me-2 text-green-600" />
+                    <span>{item.address}, {item.state}</span>
                   </li>
                 </ul>
 
                 <ul className="pt-6 flex justify-between items-center list-none">
                   <li>
-                    <span className="text-slate-400">Price</span>
+                    <span className="text-slate-400">Property Price</span>
                     <p className="text-lg font-medium">${item.price}</p>
+                  </li>
+
+                  <li>
+                    <span className="text-slate-400">Token Price</span>
+                    <p className="text-lg font-medium">$100</p>
                   </li>
 
                   <li>
@@ -67,6 +88,7 @@ export default function Property() {
                     </ul>
                   </li>
                 </ul>
+                
               </div>
             </div>
           ))}

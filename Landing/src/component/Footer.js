@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import LogoLight from "../assets/images/icon.png";
+import LogoLight from "../assets/images/logo.png";
 import { HiOutlineEnvelope } from "react-icons/hi2";
 import { BsPencil } from "react-icons/bs";
 
@@ -10,7 +10,7 @@ export default function Footer() {
 
   return (
     <>
-      <footer className="relative bg-slate-900 dark:bg-slate-800 mt-24">
+      <footer id="jtwl" className="relative bg-slate-900 dark:bg-slate-800 pt-40">
         <div className="container">
           <div className="grid grid-cols-1">
             <div className="relative py-16">

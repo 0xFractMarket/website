@@ -20,6 +20,7 @@ export default function IndexEight() {
             <div className="text-center">
               <h1 className="font-bold lg:leading-normal leading-normal text-4xl lg:text-5xl mb-6">Fractional Real Estate Made Easy</h1>
               <p className="text-slate-400 text-xl max-w-xl mx-auto">Buy and sell property fractions effortlessly. High liquidity, no hassle. Your gateway to real estate investment starts here</p>
+              <a href='#jtwl' className="property-button inline-block mt-8">Join the waitlist!</a>
             </div>
           </div>
         </div>
@@ -30,7 +31,7 @@ export default function IndexEight() {
           <Categories />
         </div>
 
-        <div className="container relative lg:mt-24 mt-16 mb-16">
+        <div id="wdwd" className="container relative lg:mt-24 pt-32 pb-16">
           <div className="grid grid-cols-1 pb-8 text-center">
             <h3 className="mb-4 md:text-3xl md:leading-normal text-2xl leading-normal font-semibold">What We Do?</h3>
             <p className="text-slate-400 max-w-xl mx-auto">Fractional ownership, high liquidity, and full transparency—real estate investing made easy with blockchain technology</p>

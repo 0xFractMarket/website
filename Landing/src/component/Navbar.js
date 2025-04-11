@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from "react";
 import { Link, useLocation } from "react-router-dom";
 
-import LogoLight from "../assets/images/icon.png";
-import LogoDark from "../assets/images/icon.png";
+import LogoLight from "../assets/images/logo.png";
+import LogoDark from "../assets/images/logo.png";
 
 export default function Navbar(props) {
   const { navClass, topnavClass, tagLine } = props;
@@ -67,7 +67,10 @@ export default function Navbar(props) {
           <div id="navigation" style={{ display: toggle ? 'block' : 'none' }}>
             {/* <!-- Navigation Menu--> */}
             <ul className={`navigation-menu  ${navClass === '' || navClass === undefined ? '' : 'nav-light'}   ${topnavClass !== '' && topnavClass !== undefined ? 'justify-center' : 'justify-end'}`}>
-              <li className={manu === "/contact" ? "active" : ''}><Link to="/contact" className="sub-menu-item">Contact</Link></li>
+              <li><a href="#wdwd">What do we do?</a></li>
+              <li><a href="#marketplace">Marketplace</a></li>
+              <li><a href="#qymh">Questions you may have</a></li>
+              <li><a href="#jtwl">Join the Wailist!</a></li>
             </ul>
           </div>
         </div>
