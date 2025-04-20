@@ -2,8 +2,8 @@ import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 
 import logoDark from '../assets/images/logo-dark.png'
-import logoLight from '../assets/images/logo-light.png'
-import logoIcon from '../assets/images/logo-icon-32.png'
+import logoLight from '../assets/images/logo.png'
+import logoIcon from '../assets/images/logo.png'
 
 import usa from '../assets/images/flags/usa.png'
 import germany from '../assets/images/flags/germany.png'

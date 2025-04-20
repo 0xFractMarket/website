@@ -537,21 +537,6 @@ export const aboutData = [
         title:'Secondary Market',
         desc:"Buy and sell your tokens easily on our transparent marketplace"
     },
-    {
-        image:about1,
-        title:'DAO Buyback Option',
-        desc:"If you choose to sell, the DAO can buy back your tokens, ensuring a smooth exit"
-    },
-    {
-        image:about2,
-        title:'Smart Land Acquisition',
-        desc:"Our strategy includes crowdfunding, direct purchases, and auctions to maximize property value"
-    },
-    {
-        image:about3,
-        title:'Security & Transparency',
-        desc:"Every transaction is securely recorded, ensuring full traceability and trust"
-    },
 ]
 
 export const agentData = [
