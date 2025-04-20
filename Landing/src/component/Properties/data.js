@@ -5,12 +5,6 @@ import Property4 from "../../assets/images/property/4.jpg";
 import Property5 from "../../assets/images/property/5.jpg";
 import Property6 from "../../assets/images/property/6.jpg";
 
-import SubProperty1 from "../../assets/images/property/single/1.jpg";
-import SubProperty2 from "../../assets/images/property/single/2.jpg";
-import SubProperty3 from "../../assets/images/property/single/3.jpg";
-import SubProperty4 from "../../assets/images/property/single/4.jpg";
-import SubProperty5 from "../../assets/images/property/single/5.jpg";
-
 import client1 from "../../assets/images/client/01.jpg";
 import client2 from "../../assets/images/client/02.jpg";
 import client3 from "../../assets/images/client/03.jpg";
@@ -99,48 +93,49 @@ export const properties = [
         country: "Costa Rica",
         state: "Guanacaste",
         phone: "+50683080167",
-        detail: [lt0105, lt0102, lt0103, lt0104, lt0101, lt0106, lt0107],
+        detail: [lt0102, lt0106, lt0105, lt0101, lt0107, lt0104, lt0103],
         terrainFeatures: {
-          canItBeDivided: "",
-          terrainType: "",
-          elevation: "",
-          soilQuality: "",
-          naturalResources: ["", ""],
-          topography: "",
-          accessibility: "Camino de lastre",
-          proximityToAmenities: "",
-          environmentalConcerns: ""
+            canItBeDivided: "",
+            terrainType: "",
+            elevation: "",
+            soilQuality: "",
+            naturalResources: ["", ""],
+            topography: "",
+            accessibility: "Gravel road",
+            proximityToAmenities: "",
+            environmentalConcerns: ""
         },
         legalConsiderations: {
-          zoningRegulations: "",
-          landUseRestrictions: "Todo uso de suelo",
-          easements: "Plano se tiene que sacar al haber pagado la hipoteca una vez recibido el dinero",
-          propertyTaxStatus: "Tiene hipoteca",
-          titleIssues: "Título en mano",
-          surveyAvailable: true
+            zoningRegulations: "",
+            landUseRestrictions: "All land uses allowed",
+            easements: "Survey needs to be requested after the mortgage is paid and the money is received",
+            propertyTaxStatus: "Has a mortgage",
+            titleIssues: "Title in hand",
+            surveyAvailable: true
         },
         utilityInformation: {
-          waterSource: "Agua de Poso",
-          waterSourceComment: "Contiene agua de poso comunal no inscrito en Asada aun, ya esta instalado el tubo con agua, no paga recibo de agua",
-          sewerSystem: "",
-          electricitySource: "Luz Disponible",
-          electricitySourceComment: "Cuenta con el medidor ya instalado",
-          gasAvailability: "",
-          internetConnectivity: ""
+            waterSource: "Well water",
+            waterSourceComment: "Connected to communal well water, not yet registered with Asada; water pipe is installed, no water bill",
+            sewerSystem: "",
+            electricitySource: "Electricity available",
+            electricitySourceComment: "Meter is already installed",
+            gasAvailability: "",
+            internetConnectivity: ""
         },
+
         developmentPotential: {
-          futureLandValue: "",
-          potentialLandUse: "",
-          infrastructurePlans: "",
-          surroundingDevelopment: "",
-          marketTrends: ""
+            futureLandValue: "",
+            potentialLandUse: "",
+            infrastructurePlans: "",
+            surroundingDevelopment: "",
+            marketTrends: ""
         }
-      },
-      {
+    },
+    {
         id: 2,
-        enabled: false,
+        enabled: true,
         agentId: 1,
-        image: lt0203,
+        image: lt0205,
         name: 'Bagaces, Costa Rica 🇨🇷⛰️',
         square: 1000,
         type: "Terreno",
@@ -152,46 +147,46 @@ export const properties = [
         country: "Costa RIca",
         state: "Guanacaste",
         phone: "+50683080167",
-        detail: [lt0205, lt0202, lt0203, lt0204, lt0201, lt0206],
+        detail: [lt0205, lt0206, lt0204, lt0201, lt0202, lt0203],
         terrainFeatures: {
-          canItBeDivided: "",
-          terrainType: "",
-          elevation: "",
-          soilQuality: "",
-          naturalResources: ["", ""],
-          topography: "",
-          accessibility: "Camino asfaltado",
-          proximityToAmenities: "",
-          environmentalConcerns: ""
+            canItBeDivided: "",
+            terrainType: "",
+            elevation: "",
+            soilQuality: "",
+            naturalResources: ["", ""],
+            topography: "",
+            accessibility: "Paved road",
+            proximityToAmenities: "",
+            environmentalConcerns: ""
         },
         legalConsiderations: {
-          zoningRegulations: "",
-          landUseRestrictions: "El uso de suelo se entrega al mismo tiempo que el plano",
-          easements: "El plano tiene que ser tramitado",
-          propertyTaxStatus: "",
-          titleIssues: "Título en mano",
-          surveyAvailable: true
+            zoningRegulations: "",
+            landUseRestrictions: "Land use permit is delivered along with the plot map",
+            easements: "Plot map needs to be processed",
+            propertyTaxStatus: "",
+            titleIssues: "Title in hand",
+            surveyAvailable: true
         },
         utilityInformation: {
-          waterSource: "Agua Disponible",
-          waterSourceComment: "La quinta ya tiene el agua disponible, el permiso se tramita una vez inscrito el lote",
-          sewerSystem: "",
-          electricitySource: "Luz Disponible",
-          electricitySourceComment: "La quinta ya tiene la luz disponible, el permiso se tramita una vez inscrito el lote",
-          gasAvailability: "",
-          internetConnectivity: ""
+            waterSource: "Water available",
+            waterSourceComment: "Water is already available for the property; the permit is processed once the lot is registered",
+            sewerSystem: "",
+            electricitySource: "Electricity available",
+            electricitySourceComment: "Electricity is already available for the property; the permit is processed once the lot is registered",
+            gasAvailability: "",
+            internetConnectivity: ""
         },
         developmentPotential: {
-          futureLandValue: "",
-          potentialLandUse: "",
-          infrastructurePlans: "",
-          surroundingDevelopment: "",
-          marketTrends: ""
+            futureLandValue: "",
+            potentialLandUse: "",
+            infrastructurePlans: "",
+            surroundingDevelopment: "",
+            marketTrends: ""
         }
-      },
-      {
+    },
+    {
         id: 3,
-        enabled: false,
+        enabled: true,
         agentId: 1,
         image: lt0301,
         name: 'Bagaces, Guanacaste Costa Rica 🇨🇷⛰️',
@@ -207,42 +202,42 @@ export const properties = [
         phone: "+50683080167",
         detail: [lt0301, lt0302, lt0303, lt0304, lt0305, lt0306, lt0307, lt0308],
         terrainFeatures: {
-          canItBeDivided: "",
-          terrainType: "",
-          elevation: "",
-          soilQuality: "",
-          naturalResources: ["", ""],
-          topography: "",
-          accessibility: "Lastre, Asfaltado a 200mts",
-          proximityToAmenities: "",
-          environmentalConcerns: ""
+            canItBeDivided: "",
+            terrainType: "",
+            elevation: "",
+            soilQuality: "",
+            naturalResources: ["", ""],
+            topography: "",
+            accessibility: "Gravel road, paved road 200m away",
+            proximityToAmenities: "",
+            environmentalConcerns: ""
         },
         legalConsiderations: {
-          zoningRegulations: "",
-          landUseRestrictions: "Todo uso de suelo",
-          easements: "Lote tiene 60mts de calle publica",
-          propertyTaxStatus: "",
-          titleIssues: "Título en mano",
-          surveyAvailable: true
+            zoningRegulations: "",
+            landUseRestrictions: "All land uses allowed",
+            easements: "Lot has 60 meters of public road access",
+            propertyTaxStatus: "",
+            titleIssues: "Title in hand",
+            surveyAvailable: true
         },
         utilityInformation: {
-          waterSource: "Agua Disponible",
-          waterSourceComment: "El acueducto esta instalado en la calle publica",
-          sewerSystem: "",
-          electricitySource: "Luz Disponible",
-          electricitySourceComment: "La corriente pasa por el frente de la quinta",
-          gasAvailability: "",
-          internetConnectivity: ""
+            waterSource: "Water available",
+            waterSourceComment: "Water system is installed along the public road",
+            sewerSystem: "",
+            electricitySource: "Electricity available",
+            electricitySourceComment: "Power line runs in front of the property",
+            gasAvailability: "",
+            internetConnectivity: ""
         },
         developmentPotential: {
-          futureLandValue: "",
-          potentialLandUse: "",
-          infrastructurePlans: "",
-          surroundingDevelopment: "",
-          marketTrends: ""
+            futureLandValue: "",
+            potentialLandUse: "",
+            infrastructurePlans: "",
+            surroundingDevelopment: "",
+            marketTrends: ""
         }
-      },
-      {
+    },
+    {
         id: 4,
         enabled: false,
         agentId: 1,
@@ -260,57 +255,57 @@ export const properties = [
         phone: "+50683080167",
         detail: [lt0401, lt0402, lt0403, lt0404, lt0405, lt0406, lt0407, lt0408, lt0409],
         terrainFeatures: {
-          canItBeDivided: "",
-          terrainType: "",
-          elevation: "",
-          soilQuality: "",
-          naturalResources: ["", ""],
-          topography: "",
-          accessibility: "Lastre, Asfaltado a 200mts",
-          proximityToAmenities: "",
-          environmentalConcerns: ""
+            canItBeDivided: "",
+            terrainType: "",
+            elevation: "",
+            soilQuality: "",
+            naturalResources: ["", ""],
+            topography: "",
+            accessibility: "Lastre, Asfaltado a 200mts",
+            proximityToAmenities: "",
+            environmentalConcerns: ""
         },
         legalConsiderations: {
-          zoningRegulations: "",
-          landUseRestrictions: "",
-          easements: "",
-          propertyTaxStatus: "",
-          titleIssues: "Título en mano",
-          surveyAvailable: true
+            zoningRegulations: "",
+            landUseRestrictions: "",
+            easements: "",
+            propertyTaxStatus: "",
+            titleIssues: "Título en mano",
+            surveyAvailable: true
         },
         utilityInformation: {
-          waterSource: "Agua No Disponible",
-          waterSourceComment: "",
-          sewerSystem: "",
-          electricitySource: "Luz No Disponible",
-          electricitySourceComment: "",
-          gasAvailability: "",
-          internetConnectivity: ""
+            waterSource: "Agua No Disponible",
+            waterSourceComment: "",
+            sewerSystem: "",
+            electricitySource: "Luz No Disponible",
+            electricitySourceComment: "",
+            gasAvailability: "",
+            internetConnectivity: ""
         },
         developmentPotential: {
-          futureLandValue: "",
-          potentialLandUse: "",
-          infrastructurePlans: "",
-          surroundingDevelopment: "",
-          marketTrends: ""
+            futureLandValue: "",
+            potentialLandUse: "",
+            infrastructurePlans: "",
+            surroundingDevelopment: "",
+            marketTrends: ""
         }
-      }
+    }
 ];
 
 export const featureData = [
     {
-        icon:FiHome,
-        title:'Evaluate Property',
+        icon: FiHome,
+        title: 'Evaluate Property',
         desc: 'If the distribution of letters and words is random, the reader will not be distracted from making.'
     },
     {
-        icon:FiBriefcase,
-        title:'Meeting with Agent',
+        icon: FiBriefcase,
+        title: 'Meeting with Agent',
         desc: 'If the distribution of letters and words is random, the reader will not be distracted from making.'
     },
     {
-        icon:FiKey,
-        title:'Close the Deal',
+        icon: FiKey,
+        title: 'Close the Deal',
         desc: 'If the distribution of letters and words is random, the reader will not be distracted from making.'
     },
 ]
@@ -367,36 +362,36 @@ export const teamdata = [
 
 export const counterData = [
     {
-        target:'1548',
+        target: '1548',
         title: 'Properties Sell'
     },
     {
-        target:'25',
+        target: '25',
         title: 'Award Gained'
     },
     {
-        target:'9',
+        target: '9',
         title: 'Years Experience'
     },
 ]
 export const categoriesData = [
     {
-        image:cate1,
+        image: cate1,
         name: 'Residential',
         title: 'Coming Soon'
     },
     {
-        image:cate2,
+        image: cate2,
         name: 'Land',
         title: 'Coming Soon'
     },
     {
-        image:cate3,
+        image: cate3,
         name: 'Commercial',
         title: 'Coming Soon'
     },
     {
-        image:cate5,
+        image: cate5,
         name: 'Investment',
         title: 'Coming Soon'
     },
@@ -405,53 +400,53 @@ export const featureTwo = [
     {
         icon: 'mdi mdi-cards-heart',
         title: 'Comfortable',
-        desc:'If the distribution of letters and words is random, the reader will not be distracted from making.'
+        desc: 'If the distribution of letters and words is random, the reader will not be distracted from making.'
     },
     {
         icon: 'mdi mdi-shield-sun',
         title: 'Extra Security',
-        desc:'If the distribution of letters and words is random, the reader will not be distracted from making.'
+        desc: 'If the distribution of letters and words is random, the reader will not be distracted from making.'
     },
     {
         icon: 'mdi mdi-star',
         title: 'Luxury',
-        desc:'If the distribution of letters and words is random, the reader will not be distracted from making.'
+        desc: 'If the distribution of letters and words is random, the reader will not be distracted from making.'
     },
     {
         icon: 'mdi mdi-currency-usd',
         title: 'Best Price',
-        desc:'If the distribution of letters and words is random, the reader will not be distracted from making.'
+        desc: 'If the distribution of letters and words is random, the reader will not be distracted from making.'
     },
     {
         icon: 'mdi mdi-map-marker',
         title: 'Stratagic Location',
-        desc:'If the distribution of letters and words is random, the reader will not be distracted from making.'
+        desc: 'If the distribution of letters and words is random, the reader will not be distracted from making.'
     },
     {
         icon: 'mdi mdi-chart-arc',
         title: 'Efficient',
-        desc:'If the distribution of letters and words is random, the reader will not be distracted from making.'
+        desc: 'If the distribution of letters and words is random, the reader will not be distracted from making.'
     },
 ]
 
 export const pricing = [
     {
-     icon:CgTrees,
-     title:"Basic",
-     amount:"19",
-     features:["Full Access", "Source Files","Free Appointments","Enhanced Security"]
+        icon: CgTrees,
+        title: "Basic",
+        amount: "19",
+        features: ["Full Access", "Source Files", "Free Appointments", "Enhanced Security"]
     },
     {
-    icon:BiShieldAlt2,
-    title:"Premium",
-    amount:"39",
-    features:["Full Access", "Source Files","Free Appointments","Enhanced Security"]
+        icon: BiShieldAlt2,
+        title: "Premium",
+        amount: "39",
+        features: ["Full Access", "Source Files", "Free Appointments", "Enhanced Security"]
     },
     {
-    icon:GoRocket,
-    title:"Business",
-    amount:"99",
-    features:["Full Access", "Source Files","Free Appointments","Enhanced Security"]
+        icon: GoRocket,
+        title: "Business",
+        amount: "99",
+        features: ["Full Access", "Source Files", "Free Appointments", "Enhanced Security"]
     }
 ]
 export const accordionData = [
@@ -476,44 +471,44 @@ export const accordionData = [
         content: 'Yes. We leverage blockchain technology to guarantee security, transparency, and full transaction traceability'
     }
 ]
-export  const blogList = [
+export const blogList = [
     {
-        id:1,
+        id: 1,
         title: "Skills That You Can Learn In The Real Estate Market",
         date: "13th March, 2023",
         type: 'Industrial',
         image: Property1
     },
     {
-        id:2,
+        id: 2,
         title: "Learn The Truth About Real Estate Industry",
         date: "5th May, 2023",
         type: 'Industrial',
         image: Property2
     },
     {
-        id:3,
+        id: 3,
         title: "10 Quick Tips About Business Development",
         date: "19th June, 2023",
         type: 'Industrial',
         image: Property3
     },
     {
-        id:4,
+        id: 4,
         title: "14 Common Misconceptions About Business Development",
         date: "20th June, 2023",
         type: 'Industrial',
         image: Property4
     },
     {
-        id:5,
+        id: 5,
         title: "10 Things Your Competitors Can Teach You About Real Estate",
         date: "31st Aug, 2023",
         type: 'Industrial',
         image: Property5
     },
     {
-        id:6,
+        id: 6,
         title: "Why We Love Real Estate",
         date: "1st Sep, 2023",
         type: 'Industrial',
@@ -523,126 +518,126 @@ export  const blogList = [
 
 export const aboutData = [
     {
-        image:about1,
-        title:'Fractionalized Properties',
+        image: about1,
+        title: 'Fractionalized Properties',
         desc: "Own a fraction of a property through tokens backed by real assets"
     },
     {
-        image:about2,
-        title:'DAO as an Active Manager',
-        desc:"Our DAO doesn’t just manage—it enhances property value through upgrades and rental strategies"
+        image: about2,
+        title: 'DAO as an Active Manager',
+        desc: "Our DAO doesn’t just manage—it enhances property value through upgrades and rental strategies"
     },
     {
-        image:about3,
-        title:'Secondary Market',
-        desc:"Buy and sell your tokens easily on our transparent marketplace"
+        image: about3,
+        title: 'Secondary Market',
+        desc: "Buy and sell your tokens easily on our transparent marketplace"
     },
 ]
 
 export const agentData = [
     {
-        id:1,
-        image:client4,
-        name:'Jack John',
-        position:'Property Broker'
+        id: 1,
+        image: client4,
+        name: 'Jack John',
+        position: 'Property Broker'
     },
     {
-        id:2,
-        image:client5,
-        name:'Krista John',
-        position:'Property Broker'
+        id: 2,
+        image: client5,
+        name: 'Krista John',
+        position: 'Property Broker'
     },
     {
-        id:3,
-        image:client6,
-        name:'Roger Jackson',
-        position:'Property Broker'
+        id: 3,
+        image: client6,
+        name: 'Roger Jackson',
+        position: 'Property Broker'
     },
     {
-        id:4,
-        image:client7,
-        name:'Johnny English',
-        position:'Property Broker'
+        id: 4,
+        image: client7,
+        name: 'Johnny English',
+        position: 'Property Broker'
     },
     {
-        id:5,
-        image:client8,
-        name:'Clayton Dalke',
-        position:'Property Broker'
+        id: 5,
+        image: client8,
+        name: 'Clayton Dalke',
+        position: 'Property Broker'
     },
     {
-        id:6,
-        image:client1,
-        name:'Christopher Myers',
-        position:'Property Broker'
+        id: 6,
+        image: client1,
+        name: 'Christopher Myers',
+        position: 'Property Broker'
     },
     {
-        id:7,
-        image:client2,
-        name:'Mary Petersen',
-        position:'Property Broker'
+        id: 7,
+        image: client2,
+        name: 'Mary Petersen',
+        position: 'Property Broker'
     },
     {
-        id:8,
-        image:client3,
-        name:'Amber Durden',
-        position:'Property Broker'
+        id: 8,
+        image: client3,
+        name: 'Amber Durden',
+        position: 'Property Broker'
     },
 ]
 
 export const agencyData = [
     {
-        id:1,
-        image:agency1,
-        name:'Realty Zen',
-        title:'Real Estate Agency'
+        id: 1,
+        image: agency1,
+        name: 'Realty Zen',
+        title: 'Real Estate Agency'
     },
     {
-        id:2,
-        image:agency2,
-        name:'Realty Zen',
-        title:'Real Estate Agency'
+        id: 2,
+        image: agency2,
+        name: 'Realty Zen',
+        title: 'Real Estate Agency'
     },
     {
-        id:3,
-        image:agency3,
-        name:'Realty Zen',
-        title:'Real Estate Agency'
+        id: 3,
+        image: agency3,
+        name: 'Realty Zen',
+        title: 'Real Estate Agency'
     },
     {
-        id:4,
-        image:agency4,
-        name:'Realty Zen',
-        title:'Real Estate Agency'
+        id: 4,
+        image: agency4,
+        name: 'Realty Zen',
+        title: 'Real Estate Agency'
     },
     {
-        id:5,
-        image:agency5,
-        name:'Realty Zen',
-        title:'Real Estate Agency'
+        id: 5,
+        image: agency5,
+        name: 'Realty Zen',
+        title: 'Real Estate Agency'
     },
     {
-        id:6,
-        image:agency6,
-        name:'Realty Zen',
-        title:'Real Estate Agency'
+        id: 6,
+        image: agency6,
+        name: 'Realty Zen',
+        title: 'Real Estate Agency'
     },
     {
-        id:7,
-        image:agency7,
-        name:'Realty Zen',
-        title:'Real Estate Agency'
+        id: 7,
+        image: agency7,
+        name: 'Realty Zen',
+        title: 'Real Estate Agency'
     },
     {
-        id:8,
-        image:agency8,
-        name:'Realty Zen',
-        title:'Real Estate Agency'
+        id: 8,
+        image: agency8,
+        name: 'Realty Zen',
+        title: 'Real Estate Agency'
     },
     {
-        id:9,
-        image:agency9,
-        name:'Realty Zen',
-        title:'Real Estate Agency'
+        id: 9,
+        image: agency9,
+        name: 'Realty Zen',
+        title: 'Real Estate Agency'
     },
 ]

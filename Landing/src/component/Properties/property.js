@@ -30,7 +30,7 @@ export default function Property() {
               <div className="p-6">
                 <div className="p-1">
                   <h3 className="text-lg hover:text-green-600 font-medium ease-in-out duration-500">{item.name}</h3>
-                  <Link className={`property-button mt-4 w-full ${!item.enabled ? 'disabled' : ''}`}>{item.enabled ? 'View Property' : 'Coming soon'}</Link>
+                  <Link to={`/property-detail/${item.id}`} className={`property-button mt-4 w-full ${!item.enabled ? 'disabled' : ''}`}>{item.enabled ? 'View Property' : 'Coming soon'}</Link>
                 </div>
 
                 <ul className="pt-6 border-y border-slate-100 dark:border-gray-800 flex items-center list-none flex-wrap">
