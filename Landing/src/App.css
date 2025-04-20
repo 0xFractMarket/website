@@ -37,19 +37,6 @@
     padding: 0px !important;
   }
   
-  .css-13cymwt-control:hover,
-  .css-13cymwt-control:focus,
-  .css-t3ipsp-control:hover,
-  .css-t3ipsp-control:focus{
-    border-color: transparent !important;
-    border-style: none !important;
-    --tw-shadow: 0 0 #0000 !important;
-    --tw-shadow-colored: 0 0 #0000 !important;
-    -webkit-box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow) !important;
-            box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow) !important;
-  }
-  
-  
   .css-1dimb5e-singleValue{
     --tw-text-opacity: 1;
     color: rgb(22 28 45 / var(--tw-text-opacity)) !important;
@@ -66,10 +53,6 @@
     border-style: none !important;
     --tw-bg-opacity: 1;
     background-color: rgb(255 255 255 / var(--tw-bg-opacity)) !important;
-    --tw-shadow: 0 0 3px rgb(60 72 88 / 0.15);
-    --tw-shadow-colored: 0 0 3px var(--tw-shadow-color);
-    -webkit-box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
-            box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
     --tw-text-opacity: 1;
     color: rgb(22 28 45 / var(--tw-text-opacity)) !important;
   }
