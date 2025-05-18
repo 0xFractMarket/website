@@ -68,9 +68,6 @@ export default function TopHeader({setToggle, toggle}){
                 <ul className="list-none mb-0 space-x-1">
                     
                     <li className="dropdown inline-block relative">
-                        <button className="dropdown-toggle size-8 inline-flex items-center justify-center tracking-wide align-middle duration-500 text-[20px] text-center bg-gray-50 dark:bg-slate-800 hover:bg-gray-100 dark:hover:bg-slate-700 border border-gray-100 dark:border-gray-800 text-slate-900 dark:text-white rounded-md" type="button" onClick={() =>setShowCountry(true)}>
-                            <img src={usa} className="size-6 rounded-md" alt=""/>
-                        </button>
                         
                         <div className={`${showCountry ? 'show' : 'hidden'} dropdown-menu absolute end-0 m-0 mt-4 z-10 w-36 rounded-md overflow-hidden bg-white dark:bg-slate-900 shadow dark:shadow-gray-700`}>
                             <ul className="list-none py-2 text-start">
@@ -185,9 +182,6 @@ export default function TopHeader({setToggle, toggle}){
                                     <Link to="/profile-setting" onClick={() => setUser(false)} className="block py-1 px-4 dark:text-white/70 hover:text-green-600 dark:hover:text-white"><i className="mdi mdi-cog-outline me-2"></i>Settings</Link>
                                 </li>
                                 <li className="border-t border-gray-100 dark:border-gray-800 my-2"></li>
-                                <li className="ms-0">
-                                    <Link to="/lock-screen" onClick={() => setUser(false)} className="block py-1 px-4 dark:text-white/70 hover:text-green-600 dark:hover:text-white"><i className="mdi mdi-lock-outline me-2"></i>Lockscreen</Link>
-                                </li>
                                 <li className="ms-0">
                                     <Link to="/login" onClick={() => setUser(false)} className="block py-1 px-4 dark:text-white/70 hover:text-green-600 dark:hover:text-white"><i className="mdi mdi-logout me-2"></i>Logout</Link>
                                 </li>

@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
-
 import { propertiesData } from "../data/data";
+import { LiaCompressArrowsAltSolid, LiaNewspaperSolid, MdOutlineWaterDrop, GoLightBulb, GiRoad, CiLocationOn } from "../assets/icons/vander";
 
 export default function ExploreProperty(){
     return(
@@ -21,7 +21,7 @@ export default function ExploreProperty(){
                 <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-6 mt-6">
                     {propertiesData.map((item,index) =>{
                         return(
-                            <div className="group rounded-xl bg-white dark:bg-slate-900 shadow hover:shadow-xl dark:hover:shadow-xl dark:shadow-gray-700 dark:hover:shadow-gray-700 overflow-hidden ease-in-out duration-500" key={index}>
+                            <div className="group rounded-xl bg-white dark:bg-slate-900 shadow dark:shadow-gray-700 dark:hover:shadow-gray-700 overflow-hidden ease-in-out duration-500" key={index}>
                                 <div className="relative">
                                     <img src={item.image} alt=""/>
 
@@ -31,42 +31,65 @@ export default function ExploreProperty(){
                                 </div>
 
                                 <div className="p-6">
-                                    <div className="pb-6">
-                                        <Link to={`/property-detail/${item.id}`} className="text-lg hover:text-green-600 font-medium ease-in-out duration-500">{item.name}</Link>
+                                    <div className="p-1">
+                                        <h3 className="text-lg hover:text-green-600 font-medium ease-in-out duration-500">{item.name}</h3>
+                                        <Link to={`/property-detail/${item.id}`} className={`property-button mt-4 w-full ${!item.enabled ? 'disabled' : ''}`}>
+                                            {item.enabled ? 'View Property' : 'Coming soon'}
+                                        </Link>
                                     </div>
 
-                                    <ul className="py-6 border-y border-slate-100 dark:border-gray-800 flex items-center list-none">
-                                        <li className="flex items-center me-4">
-                                            <i className="mdi mdi-arrow-expand-all text-2xl me-2 text-green-600"></i>
-                                            <span>{item.sqf}</span>
+                                    <ul className="pt-6 border-y border-slate-100 dark:border-gray-800 flex items-center list-none flex-wrap">
+                                        <li className="flex items-center me-4 mb-4">
+                                            <LiaCompressArrowsAltSolid className="text-2xl me-2 text-green-600" />
+                                            <span>{item.square} mts2</span>
                                         </li>
 
-                                        <li className="flex items-center me-4">
-                                            <i className="mdi mdi-bed text-2xl me-2 text-green-600"></i>
-                                            <span>{item.beds}</span>
+                                        <li className="flex items-center me-4 mb-4">
+                                            <LiaNewspaperSolid className="text-2xl me-2 text-green-600" />
+                                            <span>{item.legalConsiderations.titleIssues}</span>
                                         </li>
 
-                                        <li className="flex items-center">
-                                            <i className="mdi mdi-shower text-2xl me-2 text-green-600"></i>
-                                            <span>{item.baths}</span>
+                                        <li className="flex items-center me-4 mb-4">
+                                            <MdOutlineWaterDrop className="text-2xl me-2 text-green-600" />
+                                            <span>{item.utilityInformation.waterSource}</span>
+                                        </li>
+
+                                        <li className="flex items-center me-4 mb-4">
+                                            <GoLightBulb className="text-2xl me-2 text-green-600" />
+                                            <span>{item.utilityInformation.electricitySource}</span>
+                                        </li>
+
+                                        <li className="flex items-center me-4 mb-4">
+                                            <GiRoad className="text-2xl me-2 text-green-600" />
+                                            <span>{item.terrainFeatures.accessibility}</span>
+                                        </li>
+
+                                        <li className="flex items-center me-4 mb-4">
+                                            <CiLocationOn className="text-2xl me-2 text-green-600" />
+                                            <span>{item.address}, {item.state}</span>
                                         </li>
                                     </ul>
 
                                     <ul className="pt-6 flex justify-between items-center list-none">
                                         <li>
-                                            <span className="text-slate-400">Price</span>
-                                            <p className="text-lg font-medium">{item.value}</p>
+                                            <span className="text-slate-400">Property Price</span>
+                                            <p className="text-lg font-medium">${item.price}</p>
+                                        </li>
+
+                                        <li>
+                                            <span className="text-slate-400">Token Price</span>
+                                            <p className="text-lg font-medium">$100</p>
                                         </li>
 
                                         <li>
                                             <span className="text-slate-400">Rating</span>
                                             <ul className="text-lg font-medium text-amber-400 list-none">
-                                                <li className="inline"><i className="mdi mdi-star"></i></li>
-                                                <li className="inline"><i className="mdi mdi-star"></i></li>
-                                                <li className="inline"><i className="mdi mdi-star"></i></li>
-                                                <li className="inline"><i className="mdi mdi-star"></i></li>
-                                                <li className="inline"><i className="mdi mdi-star"></i></li>
-                                                <li className="inline text-black dark:text-white">5.0(30)</li>
+                                                <li className="inline ms-1"><i className="mdi mdi-star"></i></li>
+                                                <li className="inline ms-1"><i className="mdi mdi-star"></i></li>
+                                                <li className="inline ms-1"><i className="mdi mdi-star"></i></li>
+                                                <li className="inline ms-1"><i className="mdi mdi-star"></i></li>
+                                                <li className="inline ms-1"><i className="mdi mdi-star"></i></li>
+                                                <li className="inline ms-1 text-black dark:text-white">{item.rating}(30)</li>
                                             </ul>
                                         </li>
                                     </ul>

@@ -46,61 +46,14 @@ export default function Sidebar(){
                             <Link to="/chat"><i className="mdi mdi-chat-outline me-2"></i>Chat</Link>
                         </li>
 
-                        <li className={`sidebar-dropdown ms-0 ${["/profile", "/profile-setting", '/user-item'].includes(manu) ? 'active' : ''}`}>
-                            <Link to="#" onClick={()=>{setSubManu(submanu === '/user-item' ? '' : '/user-item')}}><i className="mdi mdi-account-edit me-2"></i>User Profile</Link>
-                            <div className={`sidebar-submenu ${["/profile", "/profile-setting", '/user-item'].includes(submanu) ? 'block' : ''}`}>
-                                <ul>
-                                    <li className={`${manu === "/profile" ? 'active' : ''} ms-0`}><Link to="/profile">Profile</Link></li>
-                                    <li className={`${manu === "/profile-setting" ? 'active' : ''} ms-0`}><Link to="/profile-setting">Profile Settings</Link></li>
-                                </ul>
-                            </div>  
-                        </li>
-
-                        <li className={`sidebar-dropdown ms-0 ${["/blog", "/blog-detail"].includes(manu) ? 'active' : ''}`}>
-                            <Link to="#" onClick={() =>{setSubManu(submanu === '/blog-item' ? '' : '/blog-item')}}><i className="mdi mdi-post-outline me-2"></i>Blog</Link>
-                            <div className={`sidebar-submenu ${["/blog", "/blog-detail", '/blog-item'].includes(submanu) ? 'block' : '' }`}>
-                                <ul>
-                                    <li className={`${manu === "/blog" ? 'active' : '' } ms-0`}><Link to="/blog">Blogs</Link></li>
-                                    <li className={`${manu === "/blog-detail" ? 'active' : ''} ms-0`}><Link to="/blog-detail">Blog Detail</Link></li>
-                                </ul>
-                            </div>
-                        </li>
-
                         <li className={`sidebar-dropdown ms-0 ${["/starter", "/faqs", "/pricing", "/review","/privacy", "/terms"].includes(manu) ? 'active' : ''}`}>
-                            <Link to="#" onClick={() =>setSubManu(submanu === "/page-item" ? "" : "/page-item")}><i className="mdi mdi-file-document-outline me-2"></i>Pages</Link>
+                            <Link to="#" onClick={() =>setSubManu(submanu === "/page-item" ? "" : "/page-item")}><i className="mdi mdi-file-document-outline me-2"></i>About</Link>
                             <div className={`sidebar-submenu ${["/starter", "/faqs", "/pricing", "/review","/privacy", "/terms", "/page-item"].includes(submanu) ? 'block' : ''}`}>
                                 <ul>
-                                    <li className={`${manu === "/starter" ? 'active' : ''} ms-0`}><Link to="/starter">Starter</Link></li>
                                     <li className={`${manu === "/faqs" ? 'active' : ''} ms-0`}><Link to="/faqs">FAQs</Link></li>
-                                    <li className={`${manu === "/pricing" ? 'active' : ''} ms-0`}><Link to="/pricing">Pricing</Link></li>
                                     <li className={`${manu === "/review" ? 'active' : ''} ms-0`}><Link to="/review">Review</Link></li>
                                     <li className={`${manu === "/privacy" ? 'active' : ''} ms-0`}><Link to="/privacy">Privacy Policy</Link></li>
                                     <li className={`${manu === "/terms" ? 'active' : ''} ms-0`}><Link to="/terms">Term & Condition</Link></li>
-                                </ul>
-                            </div>
-                        </li>
-
-                        <li className={`sidebar-dropdown ms-0 ${["/login", "/signup", "/signup-success", "/reset-password", "/lock-screen"].includes(manu) ? 'active' : ''}`}>
-                            <Link to="#" onClick={()=>{setSubManu(submanu === "/auth-item" ? '' : "/auth-item")}}><i className="mdi mdi-login me-2"></i>Authentication</Link>
-                            <div className={`sidebar-submenu ${["/login", "/signup", "/signup-success", "/reset-password", "/lock-screen", "/auth-item"].includes(submanu) ? 'block' : ''}`}>
-                                <ul>
-                                    <li className={`${manu === "/login" ? 'active' : ''} ms-0`}><Link to="/login">Login</Link></li>
-                                    <li className={`${manu === "/signup" ? 'active' : ''} ms-0`}><Link to="/signup">Signup</Link></li>
-                                    <li className={`${manu === "/signup-success" ? 'active' : ''} ms-0`}><Link to="/signup-success">Signup Success</Link></li>
-                                    <li className={`${manu === "/reset-password" ? 'active' : ''} ms-0`}><Link to="/reset-password">Reset Password</Link></li>
-                                    <li className={`${manu === "/lock-screen" ? 'active' : ''} ms-0`}><Link to="/lock-screen">Lockscreen</Link></li>
-                                </ul>
-                            </div>
-                        </li>
-
-                        <li className={`sidebar-dropdown ms-0 ${["/comingsoon", "/maintenance", "/error", "/thankyou"].includes(manu) ? 'active' : ''}`}>
-                            <Link to="#" onClick={()=>{setSubManu(submanu === "/misce-item" ? '' : '/misce-item')}}><i className="mdi mdi-layers me-2"></i>Miscellaneous</Link>
-                            <div className={`sidebar-submenu ${["/comingsoon", "/maintenance", "/error", "/thankyou", '/misce-item'].includes(submanu) ? 'block' : ''}`}>
-                                <ul>
-                                    <li className={`${manu === "/comingsoon" ? 'active' : ''} ms-0`}><Link to="/comingsoon">Comingsoon</Link></li>
-                                    <li className={`${manu === "/maintenance" ? 'active' : ''} ms-0`}><Link to="/maintenance">Maintenance</Link></li>
-                                    <li className={`${manu === "/error" ? 'active' : ''} ms-0`}><Link to="/error">Error</Link></li>
-                                    <li className={`${manu === "/thankyou" ? 'active' : ''} ms-0`}><Link to="/thankyou">Thank You</Link></li>
                                 </ul>
                             </div>
                         </li>

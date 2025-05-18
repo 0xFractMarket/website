@@ -3411,9 +3411,8 @@ html[dir=rtl] .tns-visually-hidden {
   border-color: rgb(55 65 81 / var(--tw-border-opacity)) !important;
 }
 
-.dark\:border-gray-800:is(.dark *){
-  --tw-border-opacity: 1 !important;
-  border-color: rgb(31 41 55 / var(--tw-border-opacity)) !important;
+body .dark\:border-gray-800:is(.dark *){
+  border-color: rgb(14 19 14 / 0.9) !important;
 }
 
 .dark\:border-green-600:is(.dark *){

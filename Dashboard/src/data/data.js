@@ -6,10 +6,6 @@ import property5 from '../assets/images/property/5.jpg'
 import property6 from '../assets/images/property/6.jpg'
 import property7 from '../assets/images/property/7.jpg'
 import property8 from '../assets/images/property/8.jpg'
-import property9 from '../assets/images/property/9.jpg'
-import property10 from '../assets/images/property/10.jpg'
-import property11 from '../assets/images/property/11.jpg'
-import property12 from '../assets/images/property/12.jpg'
 
 import client1 from '../assets/images/client/01.jpg'
 import client2 from '../assets/images/client/02.jpg'
@@ -24,6 +20,46 @@ import client10 from '../assets/images/client/10.jpg'
 import client11 from '../assets/images/client/11.jpg'
 import client12 from '../assets/images/client/12.jpg'
 import client13 from '../assets/images/client/13.jpg'
+
+
+
+// Real Real Estate LT01 Assets
+import lt0101 from "../assets/images/properties/LT01/01.jpeg";
+import lt0102 from "../assets/images/properties/LT01/02.jpeg";
+import lt0103 from "../assets/images/properties/LT01/03.jpg";
+import lt0104 from "../assets/images/properties/LT01/04.jpg";
+import lt0105 from "../assets/images/properties/LT01/05.jpg";
+import lt0106 from "../assets/images/properties/LT01/06.jpg";
+import lt0107 from "../assets/images/properties/LT01/07.jpg";
+
+// Real Real Estate LT02 Assets
+import lt0201 from "../assets/images/properties/LT02/01.png";
+import lt0202 from "../assets/images/properties/LT02/02.jpg";
+import lt0203 from "../assets/images/properties/LT02/03.jpg";
+import lt0204 from "../assets/images/properties/LT02/04.jpg";
+import lt0205 from "../assets/images/properties/LT02/05.jpg";
+import lt0206 from "../assets/images/properties/LT02/06.jpg";
+
+// Real Real Estate LT03 Assets
+import lt0301 from "../assets/images/properties/LT03/01.jpg";
+import lt0302 from "../assets/images/properties/LT03/02.jpg";
+import lt0303 from "../assets/images/properties/LT03/03.jpg";
+import lt0304 from "../assets/images/properties/LT03/04.jpg";
+import lt0305 from "../assets/images/properties/LT03/05.jpg";
+import lt0306 from "../assets/images/properties/LT03/06.jpg";
+import lt0307 from "../assets/images/properties/LT03/07.jpg";
+import lt0308 from "../assets/images/properties/LT03/08.mp4";
+
+// Real Real Estate LT04 Assets
+import lt0401 from "../assets/images/properties/LT04/01.jpg";
+import lt0402 from "../assets/images/properties/LT04/02.jpg";
+import lt0403 from "../assets/images/properties/LT04/03.jpg";
+import lt0404 from "../assets/images/properties/LT04/04.jpg";
+import lt0405 from "../assets/images/properties/LT04/05.jpg";
+import lt0406 from "../assets/images/properties/LT04/06.jpg";
+import lt0407 from "../assets/images/properties/LT04/07.jpg";
+import lt0408 from "../assets/images/properties/LT04/08.jpg";
+import lt0409 from "../assets/images/properties/LT04/09.mp4";
 
 export const counterData = [
     {
@@ -166,114 +202,219 @@ export const topProperties = [
 
 export const propertiesData = [
     {
-        id:1,
-        image:property1,
-        name: '10765 Hillshire Ave, Baton Rouge, LA 70810, USA',
-        sqf:'8000sqf',
-        beds:'4 Beds',
-        baths:'4 Baths',
-        value:'$5000', 
+        id: 1,
+        enabled: true,
+        agentId: 1,
+        image: lt0102,
+        name: 'Samara Beach, Costa Rica 🇨🇷🌴',
+        square: 712,
+        type: "Terreno",
+        price: '30,000',
+        rating: 5.0,
+        description: "",
+        googleMapsLink: "https://www.google.com/maps/place/9%C2%B058'36.5%22N+85%C2%B030'56.0%22W/@9.9768076,-85.5181389,17z/data=!3m1!4b1!4m4!3m3!8m2!3d9.9768076!4d-85.515564?hl=en&entry=ttu",
+        address: "Maquenco Samara",
+        country: "Costa Rica",
+        state: "Guanacaste",
+        phone: "+50683080167",
+        detail: [lt0102, lt0106, lt0105, lt0101, lt0107, lt0104, lt0103],
+        terrainFeatures: {
+            canItBeDivided: "",
+            terrainType: "",
+            elevation: "",
+            soilQuality: "",
+            naturalResources: ["", ""],
+            topography: "",
+            accessibility: "Gravel road",
+            proximityToAmenities: "",
+            environmentalConcerns: ""
+        },
+        legalConsiderations: {
+            zoningRegulations: "",
+            landUseRestrictions: "All land uses allowed",
+            easements: "Survey needs to be requested after the mortgage is paid and the money is received",
+            propertyTaxStatus: "Has a mortgage",
+            titleIssues: "Title in hand",
+            surveyAvailable: true
+        },
+        utilityInformation: {
+            waterSource: "Well water",
+            waterSourceComment: "Connected to communal well water, not yet registered with Asada; water pipe is installed, no water bill",
+            sewerSystem: "",
+            electricitySource: "Electricity available",
+            electricitySourceComment: "Meter is already installed",
+            gasAvailability: "",
+            internetConnectivity: ""
+        },
+
+        developmentPotential: {
+            futureLandValue: "",
+            potentialLandUse: "",
+            infrastructurePlans: "",
+            surroundingDevelopment: "",
+            marketTrends: ""
+        }
     },
     {
-        id:2,
-        image:property2,
-        name: '59345 STONEWALL DR, Plaquemine, LA 70764, USA',
-        sqf:'8000sqf',
-        beds:'4 Beds',
-        baths:'4 Baths',
-        value:'$5000',  
+        id: 2,
+        enabled: true,
+        agentId: 1,
+        image: lt0205,
+        name: 'Bagaces, Costa Rica 🇨🇷⛰️',
+        square: 1000,
+        type: "Terreno",
+        price: '20,000',
+        rating: 4,
+        description: "",
+        googleMapsLink: "https://www.google.com/maps/place/10%C2%B032'13.9%22N+85%C2%B015'54.6%22W/@10.5372028,-85.2677421,17z/data=!3m1!4b1!4m4!3m3!8m2!3d10.5372028!4d-85.2651672?hl=en&entry=ttu",
+        address: "Bagaces Centro",
+        country: "Costa RIca",
+        state: "Guanacaste",
+        phone: "+50683080167",
+        detail: [lt0205, lt0206, lt0204, lt0201, lt0202, lt0203],
+        terrainFeatures: {
+            canItBeDivided: "",
+            terrainType: "",
+            elevation: "",
+            soilQuality: "",
+            naturalResources: ["", ""],
+            topography: "",
+            accessibility: "Paved road",
+            proximityToAmenities: "",
+            environmentalConcerns: ""
+        },
+        legalConsiderations: {
+            zoningRegulations: "",
+            landUseRestrictions: "Land use permit is delivered along with the plot map",
+            easements: "Plot map needs to be processed",
+            propertyTaxStatus: "",
+            titleIssues: "Title in hand",
+            surveyAvailable: true
+        },
+        utilityInformation: {
+            waterSource: "Water available",
+            waterSourceComment: "Water is already available for the property; the permit is processed once the lot is registered",
+            sewerSystem: "",
+            electricitySource: "Electricity available",
+            electricitySourceComment: "Electricity is already available for the property; the permit is processed once the lot is registered",
+            gasAvailability: "",
+            internetConnectivity: ""
+        },
+        developmentPotential: {
+            futureLandValue: "",
+            potentialLandUse: "",
+            infrastructurePlans: "",
+            surroundingDevelopment: "",
+            marketTrends: ""
+        }
     },
     {
-        id:3,
-        image:property3,
-        name: '3723 SANDBAR DR, Addis, LA 70710, USA',
-        sqf:'8000sqf',
-        beds:'4 Beds',
-        baths:'4 Baths',
-        value:'$5000',  
+        id: 3,
+        enabled: true,
+        agentId: 1,
+        image: lt0301,
+        name: 'Bagaces, Guanacaste Costa Rica 🇨🇷⛰️',
+        square: 5000,
+        type: "Terreno",
+        price: '46,000',
+        rating: 4,
+        description: "",
+        googleMapsLink: "https://www.google.com/maps/place/10%C2%B031'40.7%22N+85%C2%B014'48.8%22W/@10.527966,-85.246893,17z/data=!3m1!4b1!4m4!3m3!8m2!3d10.527966!4d-85.246893?entry=ttu",
+        address: "Bagaces",
+        country: "Costa RIca",
+        state: "Guanacaste",
+        phone: "+50683080167",
+        detail: [lt0301, lt0302, lt0303, lt0304, lt0305, lt0306, lt0307, lt0308],
+        terrainFeatures: {
+            canItBeDivided: "",
+            terrainType: "",
+            elevation: "",
+            soilQuality: "",
+            naturalResources: ["", ""],
+            topography: "",
+            accessibility: "Gravel road, paved road 200m away",
+            proximityToAmenities: "",
+            environmentalConcerns: ""
+        },
+        legalConsiderations: {
+            zoningRegulations: "",
+            landUseRestrictions: "All land uses allowed",
+            easements: "Lot has 60 meters of public road access",
+            propertyTaxStatus: "",
+            titleIssues: "Title in hand",
+            surveyAvailable: true
+        },
+        utilityInformation: {
+            waterSource: "Water available",
+            waterSourceComment: "Water system is installed along the public road",
+            sewerSystem: "",
+            electricitySource: "Electricity available",
+            electricitySourceComment: "Power line runs in front of the property",
+            gasAvailability: "",
+            internetConnectivity: ""
+        },
+        developmentPotential: {
+            futureLandValue: "",
+            potentialLandUse: "",
+            infrastructurePlans: "",
+            surroundingDevelopment: "",
+            marketTrends: ""
+        }
     },
     {
-        id:4,
-        image:property4,
-        name: 'Lot 21 ROYAL OAK DR, Prairieville, LA 70769, USA',
-        sqf:'8000sqf',
-        beds:'4 Beds',
-        baths:'4 Baths',
-        value:'$5000',  
-    },
-    {
-        id:5,
-        image:property5,
-        name: '710 BOYD DR, Unit #1102, Baton Rouge, LA 70808, USA',
-        sqf:'8000sqf',
-        beds:'4 Beds',
-        baths:'4 Baths',
-        value:'$5000',  
-    },
-    {
-        id:6,
-        image:property6,
-        name: '5133 MCLAIN WAY, Baton Rouge, LA 70809, USA',
-        sqf:'8000sqf',
-        beds:'4 Beds',
-        baths:'4 Baths',
-        value:'$5000',  
-    },
-    {
-        id:7,
-        image:property7,
-        name: '2141 Fiero Street, Baton Rouge, LA 70808',
-        sqf:'8000sqf',
-        beds:'4 Beds',
-        baths:'4 Baths',
-        value:'$5000',  
-    },
-    {
-        id:8,
-        image:property8,
-        name: '9714 Inniswold Estates Ave, Baton Rouge, LA 70809',
-        sqf:'8000sqf',
-        beds:'4 Beds',
-        baths:'4 Baths',
-        value:'$5000',  
-    },
-    {
-        id:9,
-        image:property9,
-        name: '1433 Beckenham Dr, Baton Rouge, LA 70808, USA',
-        sqf:'8000sqf',
-        beds:'4 Beds',
-        baths:'4 Baths',
-        value:'$5000',  
-    },
-    {
-        id:10,
-        image:property10,
-        name: '1574 Sharlo Ave, Baton Rouge, LA 70820, USA',
-        sqf:'8000sqf',
-        beds:'4 Beds',
-        baths:'4 Baths',
-        value:'$5000',  
-    },
-    {
-        id:11,
-        image:property11,
-        name: '2528 BOCAGE LAKE DR, Baton Rouge, LA 70809, USA',
-        sqf:'8000sqf',
-        beds:'4 Beds',
-        baths:'4 Baths',
-        value:'$5000',  
-    },
-    {
-        id:12,
-        image:property12,
-        name: '1533 NICHOLSON DR, Baton Rouge, LA 70802, USA',
-        sqf:'8000sqf',
-        beds:'4 Beds',
-        baths:'4 Baths',
-        value:'$5000',  
-    },
-]
+        id: 4,
+        enabled: false,
+        agentId: 1,
+        image: lt0402,
+        name: 'Lote en Bagaces 2643mts2, 2E Residencial MANANTIALES, 800mts del Pali, 15 min de Liberia, 20 min de Llanos de Cortes',
+        square: 2600,
+        type: "Terreno",
+        price: '30,000',
+        rating: 4,
+        description: "",
+        googleMapsLink: "https://www.google.com/maps/place/10%C2%B031'40.7%22N+85%C2%B014'48.8%22W/@10.527966,-85.246893,17z/data=!3m1!4b1!4m4!3m3!8m2!3d10.527966!4d-85.246893?entry=ttu",
+        address: "Bagaces",
+        country: "Costa RIca",
+        state: "Guanacaste",
+        phone: "+50683080167",
+        detail: [lt0401, lt0402, lt0403, lt0404, lt0405, lt0406, lt0407, lt0408, lt0409],
+        terrainFeatures: {
+            canItBeDivided: "",
+            terrainType: "",
+            elevation: "",
+            soilQuality: "",
+            naturalResources: ["", ""],
+            topography: "",
+            accessibility: "Lastre, Asfaltado a 200mts",
+            proximityToAmenities: "",
+            environmentalConcerns: ""
+        },
+        legalConsiderations: {
+            zoningRegulations: "",
+            landUseRestrictions: "",
+            easements: "",
+            propertyTaxStatus: "",
+            titleIssues: "Título en mano",
+            surveyAvailable: true
+        },
+        utilityInformation: {
+            waterSource: "Agua No Disponible",
+            waterSourceComment: "",
+            sewerSystem: "",
+            electricitySource: "Luz No Disponible",
+            electricitySourceComment: "",
+            gasAvailability: "",
+            internetConnectivity: ""
+        },
+        developmentPotential: {
+            futureLandValue: "",
+            potentialLandUse: "",
+            infrastructurePlans: "",
+            surroundingDevelopment: "",
+            marketTrends: ""
+        }
+    }
+];
 
 export const chatData = [
     {
