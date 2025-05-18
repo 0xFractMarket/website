@@ -18,11 +18,11 @@ export default function ExploreProperty(){
                     </ul>
                 </div>
 
-                <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-6 mt-6">
+                <div className="grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 gap-6 mt-6">
                     {propertiesData.map((item,index) =>{
                         return(
                             <div className="group rounded-xl bg-white dark:bg-slate-900 shadow dark:shadow-gray-700 dark:hover:shadow-gray-700 overflow-hidden ease-in-out duration-500" key={index}>
-                                <div className="relative">
+                                <div className="relative property-pic">
                                     <img src={item.image} alt=""/>
 
                                     <div className="absolute top-4 end-4">

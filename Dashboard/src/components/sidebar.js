@@ -38,10 +38,6 @@ export default function Sidebar(){
                             <Link to="/favorite-property"><i className="mdi mdi-home-heart me-2"></i>Favorite Properties</Link>
                         </li>
 
-                        <li className={`${manu === "/add-property" ? 'active' : ''} ms-0`}>
-                            <Link to="/add-property"><i className="mdi mdi-home-plus me-2"></i>Add Properties</Link>
-                        </li>
-
                         <li className={`${manu === "/chat" ? 'active' : ''} ms-0`}>
                             <Link to="/chat"><i className="mdi mdi-chat-outline me-2"></i>Chat</Link>
                         </li>

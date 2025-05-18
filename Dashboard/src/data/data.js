@@ -366,7 +366,7 @@ export const propertiesData = [
         enabled: false,
         agentId: 1,
         image: lt0402,
-        name: 'Lote en Bagaces 2643mts2, 2E Residencial MANANTIALES, 800mts del Pali, 15 min de Liberia, 20 min de Llanos de Cortes',
+        name: 'Liberia, Costa Rica 🇨🇷🌞',
         square: 2600,
         type: "Terreno",
         price: '30,000',
