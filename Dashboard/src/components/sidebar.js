@@ -39,7 +39,7 @@ export default function Sidebar(){
                         </li>
 
                         <li className={`${manu === "/chat" ? 'active' : ''} ms-0`}>
-                            <Link to="/chat"><i className="mdi mdi-chat-outline me-2"></i>Chat</Link>
+                            <Link to="/chat"><i className="mdi mdi-chat-outline me-2"></i>Personal AI Advisor</Link>
                         </li>
 
                         <li className={`sidebar-dropdown ms-0 ${["/starter", "/faqs", "/pricing", "/review","/privacy", "/terms"].includes(manu) ? 'active' : ''}`}>

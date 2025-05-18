@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { propertiesData } from "../data/data";
+import { LiaCompressArrowsAltSolid, LiaNewspaperSolid, MdOutlineWaterDrop, GoLightBulb, GiRoad, CiLocationOn } from "../assets/icons/vander";
 
 export default function FavoriteProperty(){
     return(
@@ -28,45 +29,38 @@ export default function FavoriteProperty(){
                                         </div>
                                     </div>
                                     <div className="p-6 w-full">
-                                        <div className="md:pb-4 pb-6">
+                                        <div className="">
                                             <Link to={`/property-detail/${item.id}`} className="text-lg hover:text-green-600 font-medium ease-in-out duration-500">{item.name}</Link>
                                         </div>
-            
-                                        <ul className="md:py-4 py-6 border-y border-slate-100 dark:border-gray-800 flex items-center justify-between list-none">
-                                            <li className="flex items-center me-4">
-                                                <i className="mdi mdi-arrow-expand-all text-2xl me-2 text-green-600"></i>
-                                                <span>{item.sqf}</span>
-                                            </li>
-            
-                                            <li className="flex items-center me-4">
-                                                <i className="mdi mdi-bed text-2xl me-2 text-green-600"></i>
-                                                <span>{item.beds}</span>
-                                            </li>
-            
-                                            <li className="flex items-center">
-                                                <i className="mdi mdi-shower text-2xl me-2 text-green-600"></i>
-                                                <span>{item.baths}</span>
-                                            </li>
-                                        </ul>
-            
+                                       
                                         <ul className="md:pt-4 pt-6 flex justify-between items-center list-none">
                                             <li>
-                                                <span className="text-slate-400">Price</span>
-                                                <p className="text-lg font-medium">{item.value}</p>
+                                                <span className="text-slate-400">Property Price</span>
+                                                <p className="text-lg font-medium">${item.price}</p>
+                                            </li>
+
+                                            <li>
+                                                <span className="text-slate-400">Token Price</span>
+                                                <p className="text-lg font-medium">$100</p>
                                             </li>
             
                                             <li>
                                                 <span className="text-slate-400">Rating</span>
                                                 <ul className="text-lg font-medium text-amber-400 list-none">
-                                                    <li className="inline"><i className="mdi mdi-star"></i></li>
-                                                    <li className="inline"><i className="mdi mdi-star"></i></li>
-                                                    <li className="inline"><i className="mdi mdi-star"></i></li>
-                                                    <li className="inline"><i className="mdi mdi-star"></i></li>
-                                                    <li className="inline"><i className="mdi mdi-star"></i></li>
-                                                    <li className="inline text-black dark:text-white">5.0(30)</li>
+                                                    <li className="inline ms-1"><i className="mdi mdi-star"></i></li>
+                                                    <li className="inline ms-1"><i className="mdi mdi-star"></i></li>
+                                                    <li className="inline ms-1"><i className="mdi mdi-star"></i></li>
+                                                    <li className="inline ms-1"><i className="mdi mdi-star"></i></li>
+                                                    <li className="inline ms-1"><i className="mdi mdi-star"></i></li>
+                                                    <li className="inline ms-1 text-black dark:text-white">{item.rating}(30)</li>
                                                 </ul>
                                             </li>
                                         </ul>
+                                        <div className="">
+                                            <Link to={`/property-detail/${item.id}`} className={`property-button mt-4 w-full ${!item.enabled ? 'disabled' : ''}`}>
+                                                {item.enabled ? 'View Property' : 'Coming soon'}
+                                            </Link>
+                                        </div>
                                     </div>
                                 </div>
                             </div>

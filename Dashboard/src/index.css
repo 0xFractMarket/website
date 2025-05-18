@@ -16,7 +16,7 @@ a.property-button {
   }
   
   a.property-button.disabled {
-    background-color: rgb(14, 19, 14);
+    background-color: rgb(14, 19, 14) !important;
     color: white;
     cursor: not-allowed;
   }
@@ -25,4 +25,8 @@ a.property-button {
     height: 250px;
     width: 100%;
     object-fit: cover;
+  }
+
+  body [data-simplebar] {
+    background-color:  rgb(14, 19, 14) !important;
   }

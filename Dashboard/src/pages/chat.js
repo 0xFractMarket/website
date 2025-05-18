@@ -20,8 +20,8 @@ export default function Chat(){
         }
     })
     return(
-        <div className="container-fluid relative px-3">
-            <div className="layout-specing">
+        <div className="container-fluid relative px-3 h-screen">
+            <div className="layout-specing h-full">
                 <div className="md:flex justify-between items-center">
                     <h5 className="text-lg font-semibold">Chatbox</h5>
 
@@ -32,47 +32,9 @@ export default function Chat(){
                     </ul>
                 </div>
 
-                <div className="grid md:grid-cols-12 grid-cols-1 mt-6 gap-2">
-                    <div className="xl:col-span-3 lg:col-span-5 md:col-span-5">
-                        <div className="rounded-md shadow dark:shadow-gray-700 bg-white dark:bg-slate-900">
-                            <div className="text-center p-6 border-b border-gray-100 dark:border-gray-800">
-                                <img src={client7} className="size-20 rounded-full shadow dark:shadow-gray-700 mx-auto" alt=""/>
-                                <h5 className="mt-3 font-medium text-xl mb-0">Calvin Carlo</h5>
-                                <p className="text-slate-400 mb-0">Property Dealer</p>
-                            </div>
-
-                            <SimpleBar className="p-2 max-h-[482px]">
-                                {chatData.map((item, index) =>{
-                                    return(
-                                    <Link to="#" className={item.bg === 'true' ? 'flex items-center p-2 rounded-md relative bg-gray-50 dark:bg-slate-800' : 'flex items-center p-2 rounded-md relative hover:bg-gray-50 dark:hover:bg-slate-800 mt-1.5'} key={index}>
-                                        <div className="relative">
-                                            <img src={item.image} className="size-11 rounded-full shadow dark:shadow-gray-700" alt=""/>
-                                            {item.status === 'online' ? 
-                                                <span className="absolute top-0.5 start-0.5 flex items-center justify-center bg-green-600 text-white text-[10px] font-bold rounded-full size-2 after:content-[''] after:absolute after:h-2 after:w-2 after:bg-green-600 after:top-0 after:end-0 after:rounded-full after:animate-ping"></span> : 
-                                                <span className="absolute top-0.5 start-0.5 flex items-center justify-center bg-red-600 text-white text-[10px] font-bold rounded-full size-2"></span>
-                                            }
-                                        </div>
-                                        <div className="overflow-hidden flex-1 ms-2">
-                                            <div className="flex justify-between">
-                                                <h6 className="font-semibold">{item.name}</h6>
-                                                <small className="text-slate-400">{item.time}</small>
-                                            </div>
-                                        <div className="flex justify-between">
-                                            <span className="text-slate-900 dark:text-white font-medium truncate">{item.msg}</span>
-                                            {item.unReadMsg === "" ? '':
-                                                <span className="flex items-center justify-center bg-red-600/20 text-red-600 text-[10px] font-bold rounded-full w-5 max-h-5">{item.unReadMsg}</span>
-                                            }
-                                        </div>
-                                        </div>
-                                    </Link>
-                                    )
-                                })}
-                            </SimpleBar>
-                        </div>
-                    </div>
-
-                    <div className="xl:col-span-9 lg:col-span-7 md:col-span-7">
-                        <div className="rounded-md shadow dark:shadow-gray-700 bg-white dark:bg-slate-900">
+                <div className="grid md:grid-cols-12 grid-cols-12 mt-6 gap-2 h-[calc(100vh-120px)]">
+                    <div className="col-span-12 h-full">
+                        <div className="rounded-md shadow dark:shadow-gray-700 bg-white dark:bg-slate-900 h-full flex flex-col">
                             <div className="flex justify-between items-center border-b border-gray-100 dark:border-gray-800 p-4">
                                 <div className="flex">
                                     <img src={client1} className="size-11 rounded-full shadow dark:shadow-gray-700" alt=""/>
@@ -101,8 +63,8 @@ export default function Chat(){
                                     </div>
                                 </div>
                             </div>
-                            <SimpleBar className="max-h-[548px]">
-                                <ul className="p-4 list-none mb-0 max-h-[548px]">
+                            <SimpleBar className="flex-1">
+                                <ul className="p-4 list-none mb-0">
                                     <li>
                                         <div className="inline-block">
                                             <div className="flex mb-3">
