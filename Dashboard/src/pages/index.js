@@ -24,7 +24,7 @@ export default function Index(){
                 autoSelected: 'zoom'
             },
         },
-        colors: ['#94a3b8', '#16a34a'],
+        colors: ['#b9b98b', '#16a34a'],
         dataLabels: {
             enabled: false
         },

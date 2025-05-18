@@ -299,24 +299,24 @@ textarea {
 */
 input::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
   opacity: 1; /* 1 */
-  color: #9ca3af; /* 2 */
+  color: #b9b98b; /* 2 */
 }
 input::-moz-placeholder, textarea::-moz-placeholder {
   opacity: 1; /* 1 */
-  color: #9ca3af; /* 2 */
+  color: #b9b98b; /* 2 */
 }
 input:-ms-input-placeholder, textarea:-ms-input-placeholder {
   opacity: 1; /* 1 */
-  color: #9ca3af; /* 2 */
+  color: #b9b98b; /* 2 */
 }
 input::-ms-input-placeholder, textarea::-ms-input-placeholder {
   opacity: 1; /* 1 */
-  color: #9ca3af; /* 2 */
+  color: #b9b98b; /* 2 */
 }
-input::placeholder,
+body input::placeholder,
 textarea::placeholder {
   opacity: 1; /* 1 */
-  color: #9ca3af; /* 2 */
+  color: #b9b98b; /* 2 */
 }
 /*
 Set the default cursor for buttons.
@@ -3456,6 +3456,10 @@ body .dark\:bg-slate-800:is(.dark *){
 
 body .dark\:bg-slate-900:is(.dark *){
   background-color: #354c30 !important;
+}
+
+body .dark\:bg-slate-900:is(.dark *)::placeholder {
+  color: #b9b98b !important;
 }
 
 .dark\:bg-slate-900\/70:is(.dark *){
