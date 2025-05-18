@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { Link, useLocation } from "react-router-dom";
 
-import logoLight from '../assets/images/logo-light.png'
+import logoLight from '../assets/images/logo.png'
 
 import SimpleBar from 'simplebar-react';
 import 'simplebar-react/dist/simplebar.min.css';
@@ -22,7 +22,8 @@ export default function Sidebar(){
         <nav id="sidebar" className="sidebar-wrapper sidebar-dark">
             <div className="sidebar-content">
                 <div className="sidebar-brand">
-                    <Link to="/"><img src={logoLight} alt=""/></Link>
+                        <img src={logoLight} alt=""/>
+                        <h2>FractMarket</h2>
                 </div>
                 <SimpleBar style={{height: "calc(100% - 70px)"}}>
                     <ul className="sidebar-menu border-t border-white/10">

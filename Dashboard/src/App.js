@@ -5,7 +5,7 @@ import { Route, Routes, useLocation } from 'react-router-dom';
 import Index from './pages';
 import Sidebar from './components/sidebar';
 import TopHeader from './components/topHeader';
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import Footer from './components/footer';
 import Switcher from './components/switcher';
 import ExploreProperty from './pages/explore-property';
@@ -36,6 +36,14 @@ import ThankYou from './pages/thankyou';
 function App() {
   let [toggle, setToggle] = useState(false)
   let loction = useLocation();
+
+  useEffect(() => {
+    // Asegurar que el modo oscuro esté activo
+    document.documentElement.classList.add('dark');
+    // Remover el modo claro si existe
+    document.documentElement.classList.remove('light');
+  }, []);
+
   return (
     <>
     {loction.pathname === '/login' || loction.pathname === '/signup' || loction.pathname === '/signup-success' || loction.pathname === '/reset-password' || loction.pathname === '/lock-screen' || loction.pathname === '/comingsoon' || loction.pathname === '/maintenance' || loction.pathname === '/error' || loction.pathname === '/thankyou'  ? 
@@ -52,7 +60,7 @@ function App() {
           <Route path='/thankyou' element={<ThankYou/>}/>
         </Routes> : 
 
-      <div className={`${toggle ? '' : 'toggled' } page-wrapper`}>
+      <div className={`${toggle ? '' : 'toggled' } page-wrapper dark`}>
           <Sidebar/>
           <main className="page-content bg-gray-50 dark:bg-slate-800">
               <TopHeader toggle={toggle} setToggle={setToggle} />
@@ -78,7 +86,6 @@ function App() {
                 <Route path='/terms' element={<Terms/>}/>
               </Routes>
               <Footer/>
-              <Switcher/>
           </main>
       </div>
       

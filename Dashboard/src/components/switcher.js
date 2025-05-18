@@ -1,8 +1,14 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { FiMoon, FiSun } from "react-icons/fi";
 import { Link } from "react-router-dom";
 
 export default function Switcher(){
+    useEffect(() => {
+        // Asegurar que el modo oscuro esté activo al montar el componente
+        document.documentElement.classList.add('dark');
+        document.documentElement.classList.remove('light');
+    }, []);
+
     const changeMode = (mode, event) => {
         switch (mode) {
             case 'mode':
@@ -29,7 +35,7 @@ export default function Switcher(){
         <>
          <div className="fixed top-[30%] -end-2 z-50">
             <span className="relative inline-block rotate-90">
-                <input type="checkbox" className="checkbox opacity-0 absolute" id="chk" onClick={(event) => changeMode('mode', event)}/>
+                <input type="checkbox" className="checkbox opacity-0 absolute" id="chk" onClick={(event) => changeMode('mode', event)} defaultChecked={true}/>
                 <label className="label bg-slate-900 dark:bg-white shadow dark:shadow-gray-700 cursor-pointer rounded-full flex justify-between items-center p-1 w-14 h-8" htmlFor="chk">
                     <FiMoon className=" size-[18px] text-yellow-500"/>
                     <FiSun className=" size-[18px] text-yellow-500"/>

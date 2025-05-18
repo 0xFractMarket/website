@@ -22,24 +22,56 @@ module.exports = {
         xl: '5rem',
         '2xl': '13rem',
       },
-
     },
-
     fontFamily: {
       'body': ['"League Spartan", sans-serif'],
     },
-
-
     extend: {
       screens: {
         lg_992: '992px',
       },
       colors: {
-        'dark': '#3c4858',
-        'black': '#161c2d',
-        'dark-footer': '#161c28',
+        dark: '#130E0E',
+        black: '#130E0E',
+        'dark-footer': '#130E0E',
+        primary: {
+          50: '#f8f9fa',
+          100: '#f1f3f5',
+          200: '#e9ecef',
+          300: '#dee2e6',
+          400: '#ced4da',
+          500: '#adb5bd',
+          600: '#6c757d',
+          700: '#495057',
+          800: '#343a40',
+          900: '#212529',
+          950: '#130E0E',
+        },
+        secondary: {
+          50: '#f8f9fa',
+          100: '#f1f3f5',
+          200: '#e9ecef',
+          300: '#dee2e6',
+          400: '#ced4da',
+          500: '#adb5bd',
+          600: '#6c757d',
+          700: '#495057',
+          800: '#343a40',
+          900: '#212529',
+        },
+        accent: {
+          50: '#fff5f5',
+          100: '#ffe3e3',
+          200: '#ffc9c9',
+          300: '#ffa8a8',
+          400: '#ff8787',
+          500: '#ff6b6b',
+          600: '#fa5252',
+          700: '#f03e3e',
+          800: '#e03131',
+          900: '#c92a2a',
+        },
       },
-
       boxShadow: {
         sm: '0 2px 4px 0 rgb(60 72 88 / 0.15)',
         DEFAULT: '0 0 3px rgb(60 72 88 / 0.15)',
@@ -50,16 +82,13 @@ module.exports = {
         inner: 'inset 0 2px 4px 0 rgb(60 72 88 / 0.05)',
         testi: '2px 2px 2px -1px rgb(60 72 88 / 0.15)',
       },
-
       fontSize: {
         base: ['17px', '24px'],
       },
-
       spacing: {
         0.75: '0.1875rem',
         3.25: '0.8125rem'
       },
-
       height: ({
         theme
       }) => ({
@@ -71,7 +100,6 @@ module.exports = {
       }) => ({
         '10.5': '2.625rem',
       }),
-
       maxWidth: ({
         theme,
         breakpoints
@@ -80,7 +108,6 @@ module.exports = {
         '992': '60rem',
         '768': '45rem',
       }),
-
       zIndex: {
         1: '1',
         2: '2',
@@ -89,7 +116,6 @@ module.exports = {
       },
     },
   },
-
   plugins: [
     require('autoprefixer')
   ]
