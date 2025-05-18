@@ -22,8 +22,7 @@ export default function Sidebar(){
         <nav id="sidebar" className="sidebar-wrapper sidebar-dark">
             <div className="sidebar-content">
                 <div className="sidebar-brand">
-                        <img src={logoLight} alt=""/>
-                        <h2>FractMarket</h2>
+                    <Link to="/"><img src={logoLight} alt=""/></Link>
                 </div>
                 <SimpleBar style={{height: "calc(100% - 70px)"}}>
                     <ul className="sidebar-menu border-t border-white/10">

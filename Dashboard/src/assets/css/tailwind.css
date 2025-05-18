@@ -1502,7 +1502,7 @@ video {
 }
 .bg-slate-900{
   --tw-bg-opacity: 1 !important;
-  background-color: rgb(14 19 14 / 0.8) !important;
+  background-color: rgb(14 19 14 / 0.9) !important;
 }
 .bg-transparent{
   background-color: transparent !important;
@@ -1520,9 +1520,9 @@ video {
 .bg-\[url\(\'\.\.\/\.\.\/assets\/images\/01\.jpg\'\)\]{
   background-image: url('../../assets/images/01.jpg') !important;
 }
-.bg-gradient-to-b{
-  background-image: -webkit-gradient(linear, left top, left bottom, from(var(--tw-gradient-stops))) !important;
-  background-image: linear-gradient(to bottom, var(--tw-gradient-stops)) !important;
+body .bg-gradient-to-b{
+  background-color: #354c30 !important;
+  background-image: unset !important;
 }
 .from-gray-50{
   --tw-gradient-from: #f9fafb var(--tw-gradient-from-position) !important;
@@ -1837,21 +1837,17 @@ video {
   --tw-text-opacity: 1 !important;
   color: rgb(220 38 38 / var(--tw-text-opacity)) !important;
 }
-.text-slate-100{
-  --tw-text-opacity: 1 !important;
-  color: rgb(241 245 249 / var(--tw-text-opacity)) !important;
+body .text-slate-100{
+  color: #b9b98b !important;
 }
-.text-slate-400{
-  --tw-text-opacity: 1 !important;
-  color: rgb(148 163 184 / var(--tw-text-opacity)) !important;
+body .text-slate-400{
+  color: #b9b98b !important;
 }
-.text-slate-900{
-  --tw-text-opacity: 1 !important;
-  color: rgb(15 23 42 / var(--tw-text-opacity)) !important;
+body .text-slate-900{
+  color: #b9b98b !important;
 }
 .text-slate-950{
-  --tw-text-opacity: 1 !important;
-  color: rgb(2 6 23 / var(--tw-text-opacity)) !important;
+  color: #b9b98b !important;
 }
 .text-transparent{
   color: transparent !important;
@@ -1995,7 +1991,7 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6{
 }
 .page-wrapper .sidebar-wrapper:is(.dark *){
   --tw-bg-opacity: 1;
-  background-color: rgb(14 19 14 / 0.8);
+  background-color: rgb(14 19 14 / 0.9);
 }
 @media (max-width: 1024px) {
   .page-wrapper .sidebar-wrapper{
@@ -2231,7 +2227,7 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6{
 }
 .page-wrapper .sidebar-wrapper.sidebar-dark{
   --tw-bg-opacity: 1;
-  background-color: rgb(14 19 14 / 0.8);
+  background-color: rgb(14 19 14 / 0.9);
 }
 .page-wrapper .sidebar-wrapper.sidebar-colored{
   --tw-bg-opacity: 1;
@@ -2349,7 +2345,7 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6{
 }
 .page-wrapper .page-content .top-header .header-bar:is(.dark *){
   --tw-bg-opacity: 1;
-  background-color: rgb(14 19 14 / 0.8);
+  background-color: rgb(14 19 14 / 0.9);
   --tw-shadow-color: #374151;
   --tw-shadow: var(--tw-shadow-colored);
 }
@@ -2658,7 +2654,7 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6{
   --tw-border-opacity: 1;
   border-color: rgb(31 41 55 / var(--tw-border-opacity));
   --tw-bg-opacity: 1;
-  background-color: rgb(14 19 14 / 0.8);
+  background-color: rgb(14 19 14 / 0.9);
   --tw-text-opacity: 1;
   color: rgb(226 232 240 / var(--tw-text-opacity));
 }
@@ -2841,7 +2837,7 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6{
 .tns-controls button[data-controls=prev]:is(.dark *),
 .tns-controls button[data-controls=next]:is(.dark *){
   --tw-bg-opacity: 1;
-  background-color: rgb(14 19 14 / 0.8);
+  background-color: rgb(14 19 14 / 0.9);
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
   --tw-shadow-color: #374151;
@@ -3065,7 +3061,7 @@ html[dir=rtl] .tns-visually-hidden {
 
 .apexcharts-tooltip:is(.dark *){
   --tw-bg-opacity: 1 !important;
-  background-color: rgb(14 19 14 / 0.8) !important;
+  background-color: rgb(14 19 14 / 0.9) !important;
   --tw-text-opacity: 1 !important;
   color: rgb(255 255 255 / var(--tw-text-opacity)) !important;
   --tw-shadow-color: #1f2937 !important;
@@ -3442,9 +3438,8 @@ html[dir=rtl] .tns-visually-hidden {
   background-color: rgb(5 150 105 / 0.2) !important;
 }
 
-.dark\:bg-gray-800:is(.dark *){
-  --tw-bg-opacity: 1 !important;
-  background-color: rgb(31 41 55 / var(--tw-bg-opacity)) !important;
+body .dark\:bg-gray-800:is(.dark *){
+  background-color: rgb(14 19 14 / 0.9) !important;
 }
 
 .dark\:bg-red-600\/20:is(.dark *){
@@ -3456,14 +3451,12 @@ html[dir=rtl] .tns-visually-hidden {
   background-color: rgb(51 65 85 / var(--tw-bg-opacity)) !important;
 }
 
-.dark\:bg-slate-800:is(.dark *){
-  --tw-bg-opacity: 1 !important;
-  background-color: rgb(30 41 59 / var(--tw-bg-opacity)) !important;
+body .dark\:bg-slate-800:is(.dark *){
+  background-color: rgb(14 19 14 / 0.9) !important;
 }
 
-.dark\:bg-slate-900:is(.dark *){
-  --tw-bg-opacity: 1 !important;
-  background-color: rgb(14 19 14 / 0.8) !important;
+body .dark\:bg-slate-900:is(.dark *){
+  background-color: #354c30 !important;
 }
 
 .dark\:bg-slate-900\/70:is(.dark *){
@@ -3546,9 +3539,8 @@ html[dir=rtl] .tns-visually-hidden {
   background-color: rgb(22 163 74 / var(--tw-bg-opacity)) !important;
 }
 
-.dark\:hover\:bg-slate-700:hover:is(.dark *){
-  --tw-bg-opacity: 1 !important;
-  background-color: rgb(51 65 85 / var(--tw-bg-opacity)) !important;
+body .dark\:hover\:bg-slate-700:hover:is(.dark *){
+  background-color: #354c30 !important!
 }
 
 .dark\:hover\:bg-slate-800:hover:is(.dark *){
