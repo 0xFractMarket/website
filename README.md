@@ -9,32 +9,6 @@ A modern web application that makes fractional real estate investment accessible
 - 🏗️ OnlyDust: [FractMarket Project](https://app.onlydust.com/projects/fractmarket)
 - 💬 Telegram for devs [FractMarket Devs](https://t.me/+phFVWzH5xp05OWFh)
 
-## 🚀 Features
-
-- **Fractional Investment**
-  - Access to premium real estate properties
-  - Fractional ownership opportunities
-  - Transparent investment process
-  - Real-time property tracking
-
-- **User Experience**
-  - Intuitive interface
-  - Responsive design
-  - Seamless navigation
-  - Modern aesthetics
-
-- **Security & Trust**
-  - Blockchain-based ownership
-  - Secure transactions
-  - Transparent operations
-  - Verified property listings
-
-- **Market Insights**
-  - Real-time market data
-  - Investment analytics
-  - Property performance metrics
-  - Market trend analysis
-
 ## 📦 Installation
 
 ### Prerequisites
