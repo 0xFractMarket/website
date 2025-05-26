@@ -1,70 +1,127 @@
-# Getting Started with Create React App
+# FractkMarket Landing Page
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+[English](#english) | [Español](#español)
 
-## Available Scripts
+## English
 
-In the project directory, you can run:
+### Description
+FractkMarket is a modern web application that makes fractional real estate investment accessible and easy. This repository contains the landing page implementation built with React and Tailwind CSS.
 
-### `npm start`
+### Features
+- Modern and responsive design
+- Interactive UI components
+- Optimized performance
+- SEO friendly
+- Mobile-first approach
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Tech Stack
+- React 18
+- Tailwind CSS
+- React Router DOM
+- Various React components for enhanced UI/UX
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Prerequisites
+- Node.js (Latest LTS version recommended)
+- npm or yarn package manager
 
-### `npm test`
+### Installation
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+1. Clone the repository:
+```bash
+git clone [repository-url]
+cd website/Landing
+```
 
-### `npm run build`
+2. Install dependencies:
+```bash
+npm install
+# or
+yarn install
+```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+3. Start the development server:
+```bash
+npm start
+# or
+yarn start
+```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+The application will be available at `http://localhost:3000`
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Available Scripts
 
-### `npm run eject`
+- `npm start` - Runs the app in development mode
+- `npm build` - Builds the app for production
+- `npm test` - Launches the test runner
+- `npm eject` - Ejects from Create React App
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### Project Structure
+```
+Landing/
+├── public/          # Static files
+├── src/            # Source files
+├── build/          # Production build
+└── package.json    # Project dependencies and scripts
+```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Español
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### Descripción
+FractkMarket es una aplicación web moderna que hace que la inversión inmobiliaria fraccionada sea accesible y fácil. Este repositorio contiene la implementación de la página de inicio construida con React y Tailwind CSS.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### Características
+- Diseño moderno y responsivo
+- Componentes UI interactivos
+- Rendimiento optimizado
+- Amigable para SEO
+- Enfoque mobile-first
 
-## Learn More
+### Stack Tecnológico
+- React 18
+- Tailwind CSS
+- React Router DOM
+- Varios componentes React para mejorar la UI/UX
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### Prerrequisitos
+- Node.js (Se recomienda la última versión LTS)
+- Gestor de paquetes npm o yarn
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### Instalación
 
-### Code Splitting
+1. Clonar el repositorio:
+```bash
+git clone [url-del-repositorio]
+cd website/Landing
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+2. Instalar dependencias:
+```bash
+npm install
+# o
+yarn install
+```
 
-### Analyzing the Bundle Size
+3. Iniciar el servidor de desarrollo:
+```bash
+npm start
+# o
+yarn start
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+La aplicación estará disponible en `http://localhost:3000`
 
-### Making a Progressive Web App
+### Scripts Disponibles
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+- `npm start` - Ejecuta la aplicación en modo desarrollo
+- `npm build` - Construye la aplicación para producción
+- `npm test` - Inicia el ejecutor de pruebas
+- `npm eject` - Expulsa de Create React App
 
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+### Estructura del Proyecto
+```
+Landing/
+├── public/          # Archivos estáticos
+├── src/            # Archivos fuente
+├── build/          # Build de producción
+└── package.json    # Dependencias y scripts del proyecto
+```
