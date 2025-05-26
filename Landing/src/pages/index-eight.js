@@ -5,7 +5,6 @@ import BackgroundImage from "../assets/images/bg/bg2.png";
 import Categories from '../component/categories';
 import Property from '../component/Properties/property';
 import Footer from '../component/Footer';
-import Switcher from '../component/Switcher';
 import { aboutData } from '../component/Properties/data';
 import { FiHexagon } from 'react-icons/fi';
 import Faq from './faq';
@@ -60,9 +59,6 @@ export default function IndexEight() {
         <Faq />
       </section>
       <Footer />
-      <Switcher />
     </>
-
-
   )
 }
