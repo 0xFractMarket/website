@@ -5,7 +5,6 @@ import { LiaNewspaperSolid, MdOutlineWaterDrop, GoLightBulb, GiRoad, CiLocationO
 import { properties } from "../component/Properties/data";
 import withRouter from "../component/withrouter";
 import Navbar from "../component/Navbar";
-import Switcher from "../component/Switcher";
 import Footer from "../component/Footer";
 
 import Lightbox from 'react-18-image-lightbox';
@@ -243,7 +242,6 @@ function PropertyDetail(props) {
       )}
 
       <Footer />
-      <Switcher />
     </>
   );
 
