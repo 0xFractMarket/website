@@ -7,6 +7,13 @@
 ### Description
 FractkMarket is a modern web application that makes fractional real estate investment accessible and easy. This repository contains the landing page implementation built with React and Tailwind CSS.
 
+### Connect With Us
+- 🌐 Website: [fractmarket.com](https://fractmarket.com)
+- 🐦 Twitter: [@FractMarket](https://x.com/fractmarket)
+- 💻 GitHub: [@0xFractMarket](https://github.com/0xFractMarket)
+- 🏗️ OnlyDust: [FractMarket Project](https://app.onlydust.com/projects/fractmarket)
+- 💬 Telegram for devs [FractMarket Devs](https://t.me/+phFVWzH5xp05OWFh)
+
 ### Features
 - Modern and responsive design
 - Interactive UI components
@@ -68,6 +75,13 @@ Landing/
 
 ### Descripción
 FractkMarket es una aplicación web moderna que hace que la inversión inmobiliaria fraccionada sea accesible y fácil. Este repositorio contiene la implementación de la página de inicio construida con React y Tailwind CSS.
+
+### Conéctate Con Nosotros
+- 🌐 Sitio Web: [fractmarket.com](https://fractmarket.com)
+- 🐦 Twitter: [@FractMarket](https://x.com/fractmarket)
+- 💻 GitHub: [@0xFractMarket](https://github.com/0xFractMarket)
+- 🏗️ OnlyDust: [Proyecto FractMarket](https://app.onlydust.com/projects/fractmarket)
+- 💬 Telegram para devs [FractMarket Devs](https://t.me/+phFVWzH5xp05OWFh)
 
 ### Características
 - Diseño moderno y responsivo
